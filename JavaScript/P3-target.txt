@@ -1,0 +1,100 @@
+I'm sorry, but I need more information to be able to complete the code. Could you provide the missing part or some context on what the code should do?
+I'm sorry, but I need more information to be able to complete the code. Could you provide the missing part or some context on what the code should do?
+The missing part in the code is: `storage.set(paramObject, opt_callback);`. This line of code is using the `set` method from the `chrome.storage` API to set the `value` of the `key` in the specified `storageId` storage area. The method takes in two parameters: the first is an object containing the `storageId`, `key`, and `value` and the second is an optional callback function `opt_callback`.
+The missing part in the code is: `"active"`. The line of code is using the `removeClass` method from the jQuery library to remove the class `"active"` from the element selected by `$curr`. The method takes in a single string parameter representing the class name to be removed.
+The missing part in the code is: `key`. The line of code is checking the value of the `operator` variable, and if it's not equal to `'*'`, it returns the `key` value. This part of the code is likely creating a regular expression pattern used to match strings. The `keys` array is also being populated with the `key` value.
+The missing part in the code could be a variety of things, depending on the context and purpose of the code. Without additional information, it's difficult to determine what the missing part should be. Could you provide more context or information about the code's purpose?
+I'm sorry, but I need more information to be able to complete the code. Could you provide the missing part or some context on what the code should do?
+I'm sorry, but I need more information to be able to complete the code. Could you provide the missing part or some context on what the code should do?
+I'm sorry, but I need more information to be able to complete the code. Could you provide the missing part or some context on what the code should do?
+The missing part in the code is: `.getId`. The line of code is using the `assert.equal` method from the `assert` library to test if the value returned by the `getId` method of the `emp` object is equal to the expected value. The `assert.instanceOf` method is being used to test if the `emp` object is an instance of the `Employee` class.
+I'm sorry, but I need more information to be able to complete the code. Could you provide the missing part or some context on what the code should do?
+The missing part in the code is: `.then(renderRelatedContent)`. The line of code is using the `then` method from a Promise object to chain a render function `renderRelatedContent` to the result of calling `getRelatedContent()`. The `then` method takes a callback function as an argument and is executed when the Promise is resolved successfully. The `getRelatedContent` function likely returns a Promise that resolves with some data, which can be passed as an argument to the `renderRelatedContent` function to render the content on the page.
+The missing part in the code is: `, res`. The line of code is using the `Object.append` method to merge the properties of the `res` object with the `this` object. The `callback` function is then being called to perform some action. The method is not part of the native JavaScript API and may be a custom method or from a library.
+The missing part in the code is: `, index = Array.prototype.indexOf.call(styleSheet.cssRules, rule);`. The line of code is using the `Array.prototype.indexOf` method to find the index of the `rule` object within the `cssRules` property of the `styleSheet` object. The method is being called using the `call` method to set the `this` value to `styleSheet.cssRules`. The index of the `rule` object within the `cssRules` property is then stored in the `index` variable.
+"Error: " + error + " Documents: " + docs); }
+{ arr.push({ name: modifier.name, src: t, value: modifier.value }); }
+(d.value); }
+, "cleanup" ); }
+options[name] = opts[name];
+(controller.adminPath, '/admin/api'), "Path '" + controller.adminPath + "' starts with '/admin/api'"); }
+return (this.variable1 === this.variable2);
+; }
+null ); }
+{ return (this.property1 + this.property2); }
+"query_filters" ); var filters = _.clone(model.get("query_filters").getFilters()); model.set("query_filters", filters); }
+createWithSpriteFrame ( frame ) ) ; }
+property; }
+extension.sendMessage(paramObject, opt_callback); }
+(cfg.icons[0]).toEqual("icon.png"); }
+, function ( instance ) { done ( ) ; } ) ; }
+preventDefault(); this.trigger('renameColumn'); return false;
+callback ) { subcontext.dispose(); callback(); }
+; this.subtitle = ""; }
+Sorry, there is not enough information to fill in the missing part of the code. Can you please provide more context or a complete code snippet?
+Sorry, there is not enough information to fill in the missing part of the code. Can you please provide more context or a complete code snippet?
+Sorry, there is not enough information to fill in the missing part of the code. Can you please provide more context or a complete code snippet?
+Fill in the missing part in the following code: function browser_followLink ( e ) { e.preventDefault(); window.location = e.target.href; }
+Fill in the missing part in the following code: function ( time ) { this . unschedule ( this . resumeGrossini ) ; var grossini = this . getChildByTag ( TAG_GROSSINI ) ; cc.Tween.create(grossini).to(1, {x: 240}).start(); }
+Fill in the missing part in the following code: function ( canvas ) { if ( ! canvas || canvas . getContext ) { return ; } }
+Fill in the missing part in the following code: function () { ... }
+Fill in the missing part in the following code: function ( opt_callback ) { var paramObject = { } ; chrome.runtime.sendMessage(paramObject, opt_callback); }
+Fill in the missing part in the following code: function ( databaseId , opt_callback ) { var paramObject = { 'databaseId' : databaseId , } ; chrome . runtime . sendMessage ( paramObject , opt_callback ); }
+testData.email } ); }
+Fill in the missing part in the following code: function ( filename ) { if ( Path . extname ( filename ) === '.js' ) { files . push ( Path . join(__dirname, filename)); } }
+I'm sorry, but the code snippet you have provided is not complete. Can you please provide the complete code or the missing part?
+I'm sorry, I cannot complete this code as the missing part is not specified.
+Fill in the missing part in the following code: function ( ) { buildUI ( window . app ) . addEventListener ( 'mozvisibilitychange' , function visibilityChange ( ) { if ( ! document . mozHidden ) { photodb . scan ( ) ; } } ) ; }
+Fill in the missing part in the following code: function () { if (self.user.is("admin") ____________ ) ; }
+Fill in the missing part in the following code: function ( cm ) { cm . _________________________________________________________ }
+Fill in the missing part in the following code: function (offsetInPixels) { this._offsetInPixels = offsetInPixels; this._updatePosition(); }
+Fill in the missing part in the following code: function () {}
+Fill in the missing part in the following code: function () {}
+" ) ) { } }
+Fill in the missing part in the following code: function ( opt_callback ) { var paramObject = { } ; chrome . runtime . sendMessage ( paramObject , opt_callback ) ; }
+fs.readFile(filepath, function (err, data) {      // code to process the file data  });
+function () { this.hostEditor.setInlineWidgetHeight(this, this.$wrapperDiv.height()); }
+Fill in the missing part in the following code: function ( scene ) { return def . join ( scene . acts . x . label , scene . acts . y . label ) ; }
+Function (cfg) { expect(cfg.author).toBe(''); }
+Fill in the missing part in the following code: function ( apiObjects , basePath ) { apiObjects . forEach ( function ( apiObject ) { apiObject . endpoint = basePath + apiObject . endpoint ; } ) ; }
+Fill in the missing part in the following code: function () { var params = ModelBase.prototype.getPreset.call(this); params = $.extend(params, this.getCustomParams()); return params; }
+Fill in the missing part in the following code: function ( properties ) { for ( var key in properties ) { this [ key ] = properties [ key ] ; } }
+I'm sorry, but the code is incomplete and it's difficult to determine what the missing part is supposed to be. Can you please provide more context or complete the code snippet?
+Fill in the missing part in the following code: function browser_urlFocus ( ) { if ( this . currentScreen === this . PAGE_SCREEN ) { this . showPageScreen ( ) ; } else { ____________________________________________ ; } }
+Skipped 1 messages<|endoftext|>
+Fill in the missing part in the following code: function ( interval , slideControls ) { clearInterval ( interval ) ; slideControls . pauseResume . html ( fn . tmpl ( '<div class="resume-slideshow">Resume</div>' ) ) ; }
+Fill in the missing part in the following code: function () {    _________________________________________________________ }
+Sorry, there's not enough information in the code snippet you provided for me to fill in the missing part. Can you please provide more context?
+It is not possible to fill in the missing part of the code as there is not enough context to determine what should be inserted.
+Skipped 1 messages<|endoftext|>
+Fill in the missing part in the following code: function ( ) { this . attachjPlayer ( $ ( "#jPlayer" ) , $ ( "div.toolbar ul.player" ) , $ ( "#Playlist" ) ) ; this . attachDomEvents ( ) ; this . fadeInContent ( ) ; this . attachBubble ( ) ; }
+This code is incomplete and cannot be filled in without additional context and information.
+Fill in the missing part in the following code: function ( ) { return { alt : 20 , lat : null , lon : null } ; }
+Fill in the missing part in the following code: function ( router ) { _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ }
+Fill in the missing part in the following code: function () { return Math.random() / 100; }
+Fill in the missing part in the following code: function () { $ (...); }
+Sorry, I cannot fill in the missing part as it seems to be an incomplete code snippet and there is no context or information about what the code should do.
+Fill in the missing part in the following code: function ( ) { e.dispatch.close(callback) ; }
+Fill in the missing part in the following code: function ( ) { let _text = this . _promptEntry . get_text ( ) ; this . _promptEntry . reactive = false ; this . _promptEntry . add_style_pseudo_class ( 'insensitive' ) ; this . _promptEntry . set_editable ( false ) ; }
+Sorry, the missing code part cannot be filled as the code is not complete and it is not clear what the function is supposed to do.
+Skipped 1 messages<|endoftext|>
+I'm sorry, but the code you provided is incomplete and I can't fill in the missing part without more information. Can you please provide a more complete code so I can assist you better?
+Sorry, it is not possible to fill in the missing part in the code as it is incomplete and does not provide enough context or information to determine the intended functionality.
+(dragDisable). dblclick ( dragDisable ) ; }
+I'm sorry, but there is no code provided to fill in the missing part. Please provide the full code or at least the relevant parts surrounding the missing part so I can better understand what's expected.
+Fill in the missing part in the following code: function ( ) { assert . deepEqual ( Buffer . concat ( chunks ), expected, "Buffers do not match" ); }
+Fill in the missing part in the following code: function ( ) { var val = $ ( "#slider" ). slider ( "value" ); $ ( "#amount" ). val ( val ); }
+function ( err , datas ) { if ( err ) { return handleError ( err ) ; } // your logic to process `datas` goes here }
+Fill in the missing part in the following code: function ( condition ) { if ( condition == undefined ) { return true ; } return expr_evaluator.evaluate(condition); }
+Fill in the missing part in the following code: function () { log('editAvatarView:render'); this._initMediaUploader(); $('#avatar-viewer').append('<img src="' + this.model.get('url') + '" />'); return this; }
+Sorry, there is not enough information to provide a meaningful response. Could you please provide more context or details?
+Fill in the missing part in the following code: function ( doc , req ) {    // your code here  }
+Fill in the missing part in the following code: function ( target ) { /* code here */ }
+I'm sorry, but the code is incomplete and I cannot fill in the missing part. Please provide more context so I can better understand what the code should do.
+Fill in the missing part in the following code: function ( ) { if ( fd [ 0 ] === "string" && fd [ 1 ] === "string" ) { // code to be executed } }
+Fill in the missing part in the following code: function ( result , status ) { if ( status === "success" ) { processResult ( result ) ; } else { handleError ( result ) ; } }
+function ( event ) { if ( opts . onlyIf ( this ) ) { opts . onClick ( this , $ ( this ) , event , false ) ; } }
+Fill in the missing part in the following code: function ( i , group ) { idArr.push($(group).data('id')); }
+Fill in the missing part in the following code: function ( ) { return this._data; }
+Sorry, I cannot fill in the missing part in the code as there is not enough context or information to determine what code should be included.
+Fill in the missing part in the following code: function ( ) { for ( var i = 0 ; Gen . data . length > i ; i ++ ) { Gen . locked [ i ] = false ; } Gen . menu . enable . show ( ) ; }

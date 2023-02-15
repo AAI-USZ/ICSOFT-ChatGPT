@@ -1,0 +1,100 @@
+``` public static String checkPassword(String pass) {     if (pass == null || pass.length() < 8 || pass.length() > 80) {         return "valid passwords are between 8 and 80 characters";     }     return ""; } ```
+``` import static org.junit.Assert.assertTrue;  public void testFunction() {     Object result = // the result from the function being tested     assertTrue(result.getClass().getDeclaredField("foo") != null); } ```
+``` public static void setDOMStorageItem(String storageId, String key, String value, Optional<CommandCallback> optCallback) {     Map<String, Object> paramMap = new HashMap<>();     paramMap.put("storageId", storageId);     paramMap.put("key", key);     paramMap.put("value", value);      if (optCallback.isPresent()) {         chrome.devtools.remoteDebug.sendCommand("DOMStorage.setDOMStorageItem", paramMap, optCallback.get());     } else {         chrome.devtools.remoteDebug.sendCommand("DOMStorage.setDOMStorageItem", paramMap);     } } ```
+``` public void removeClass(String options) {     return $curr.removeClass(options.transition + " out active reverse"); } ```
+``` public static String modifyFunction(String match, String operator, String key) {     if (key == null) {         return operator.equals("*") ? ".*" : match;     }     keys.add(key);     return operator.equals("*") ? "(.*?)" : "([^/]*)"; } ```
+``` public static void function(Error err, List<Document> docs, Callback cb) {     int wordViews = docs.size();     Map<String, Integer> result = new HashMap<>();     result.put("Word views", wordViews);     cb.onResult(null, result); } ```  Note: `Callback` is assumed to be an interface with a single method `onResult` taking two arguments, an `Error` and a `Map<String, Integer>`.
+``` public static boolean shouldShowInTree(Entry entry) {     List<String> excludedNames = Arrays.asList(".git", ".svn", ".DS_Store", "Thumbs.db");     return !excludedNames.contains(entry.name); } ```  Note: `Entry` is assumed to be a class with a property `name` representing the name of the entry.
+``` public void testFunction() {     assertEquals(subject.cached, subject._accounts); } ```
+``` public void function(KeyEvent e) {     int key = e.getKeyCode();     if (key == KeyEvent.VK_ENTER) {         performSearch();         e.consume();         return false;     } } ```  Note: `KeyEvent` is assumed to be a Java class from the `java.awt.event` package, and `performSearch` is assumed to be a method that performs the desired search operation.
+``` public void testFunction(Employee emp) {     assertTrue(emp instanceof Employee);     assertEquals(emp.id, 6);     next(); } ```  Note: `Employee` is assumed to be a class and `next` is assumed to be a method that continues processing.
+``` public void handleEvent(Event ev) {     MobDeals.Account.loginPrompt(); } ```  Note: `Event` is assumed to be a Java class from the `java.awt.event` package, and `MobDeals.Account.loginPrompt` is assumed to be a static method that shows the login prompt.
+``` public void function() {     page++;     getRelatedContent();     getRelatedContent(true); } ```  Note: `getRelatedContent` is assumed to be a method that retrieves related content, with an optional argument `true` for some implementation-specific behavior.
+``` public void function(Response res) {     this.putAll(JSON.parse(res.value));     if (callback != null) {         callback.call();     } } ```  Note: `Response` is assumed to be a class with a property `value`, `JSON.parse` is assumed to be a method that parses a JSON string into a `Map`, and `callback` is assumed to be a `Callable` object. The method uses `putAll` to add the properties from the parsed JSON object to `this` object.
+``` public void modifyStyle(Style style, String propName, String prevValue, String prevPriority, Rule rule, String baseText) {     StyleSheet styleSheet = rule.getParentStyleSheet();     markSheetDirty(styleSheet); } ```  Note: `Style`, `Rule`, and `StyleSheet` are assumed to be classes in a CSS library, and `markSheetDirty` is assumed to be a method that marks the `styleSheet` as dirty.
+``` public void function(Error error, List<Document> docs) {     System.out.println("???" + newData); } ```  Note: `Error` and `Document` are assumed to be Java classes, and `newData` is assumed to be a variable accessible in the scope of the method.
+``` public void function(String t) {     set.modifiersByName.put(t, modifier);     arr.add(new Modifier(modifier.name, t, modifier.value)); } ```  Note: `set` is assumed to be an object with a property `modifiersByName` which is a `Map`, `arr` is assumed to be a `List`, and `modifier` is assumed to be an object with properties `name`, `src`, and `value`. A `Modifier` class is assumed to have a constructor with the signature `Modifier(String name, String src, Object value)`.
+``` public double finalBarX(Data d) {     return chart.xScale().apply(d.key) + chart.margins().left; } ```  Note: `Data` is assumed to be a Java class with a property `key`, `chart` is assumed to be an object with properties `xScale` and `margins`, `xScale` is assumed to be a `Function`, and `margins` is assumed to return an object with a property `left`.
+``` public void cleanUp() {     stopAllActions();     unscheduleAllSelectors();     for (Node child : this._children) {         child.cleanUp();     } } ```  Note: This code assumes that `this._children` is a list of objects with a `cleanUp` method and `stopAllActions`, `unscheduleAllSelectors`, and `_arrayMakeObjectsPerformSelector` are methods available on the class that this code is written in.
+``` public void setOption(String name, int i, Map<String, Object> opts) {     if (opts.containsKey(name)) {         this.setAttribute(name, opts.get(name));     } } ```  Note: This code assumes that `setAttribute` is a method that sets the value of an attribute in the current class and `opts` is a map containing key-value pairs.
+``` function modifyJavaCode() {   controller.adminPath = '/admin';   try {     controller.addLocation('/admin/api');     deepEqual(controller.locations, []);   } catch (error) {     ok(utils.startsWith(error.message, 'Adding sublocations to admin is not supported'));   }   mock_stub.verify(); } ```
+``` function clearDialog(timeNum) {     clearTime(timeNum);     $(this).dialog("close"); } ```
+function ModifiedTitle ( ) {    BaseSite . call ( this ) ;    this . siteName = "ModifiedTitle" ;    this . siteDisplayName = "ModifiedTitle" ;    this . siteURL = "http://www.modifiedtitle.com" ;    this . siteFeedURL = "http://www.modifiedtitle.com/home/rss" ;    this . imgWidth = 480 ;    this . imgHeight = 580 ;  }
+function ( err, result ) {   if (err) {     expect(err).to.deep.equal({ "foo": "must not be bar" });   }   done(); }
+function triggerFormSubmit() {   if (form) {     form.triggerHandler('submit');   } }
+``` function modifyFilters() {   let filters = Object.assign({}, model.get("filters")) || {};   filters[filter_group_id] = filter_group.getFilters();   model.set("query_filters", filters); } ```
+function (frame) {   this.setDisabledImage(cc.Sprite.createWithSpriteFrameName(frame)); }
+``` public Object getContext() {     return this.context; } ```
+function modifyGetScriptExecutionStatus(callback) {   var params = {};   chrome.devtools.remoteDebug.sendCommand("Page.getScriptExecutionStatus", params, callback || function() {}); }
+function (cfg) {     expect(cfg.icons.length).toEqual(1);     expect(cfg.icons.includes("pass.png")).toBeTruthy(); }
+``` function (done) {   registry.lookup('application/bogus', function (err, res) {     if (err) {       assert(true);       done();     } else {       never(done);     }   }); } ```
+function (e) {   e.preventDefault();   this.hide();   this.trigger('renameColumn');   return false; }
+function modifySubContextAndSubtemplate(subcontext, subtemplate) {     var options = subtemplate.options;     return subtemplate.document.createDocumentFragment(); }
+function SubtitleTableViewCell(reuseIdentifier) {   Pushpop.TableViewCell.prototype.constructor.apply(this, arguments);   this.$element.addClass('pp-subtitle-table-view-cell'); }
+function updateNetworkUsername() {   var uname = getValue($(this).val(), 4, 2, dataTable_vNetworks);   $('input#NETWORK_UNAME', section_networks).val(uname); }
+function modifyPhoneNumbersPool() {   let self = this;   this.phoneNumbersPool.forEach(function(wp) {     self.appendWorkingPoint(wp);   }); }
+function modifyCode(error, results) {   let parsedResults = JSON.parse(results.body);   let matches = parsedResults && parsedResults.Results ? parsedResults.Results : null;   cb(error, matches); }
+function browser_followLink(e) {     e.preventDefault();     this.navigate(e.target.href); }
+function modifyCode(time) {     this.unschedule(this.resumeGrossini);     let grossini = this.getChildByTag(TAG_GROSSINI);     cc.ActionManager.sharedManager().resumeTarget(grossini); }
+``` public CanvasRenderingContext2D getCanvasContext(HTMLCanvasElement canvas) {   if (canvas.getContext("2d") != null) {     return (CanvasRenderingContext2D) canvas.getContext("2d");   } else {     System.out.println("Your browser doesn't support the 'canvas' api.");     throw new UnsupportedOperationException("Browser doesn't support canvas api.");   } } ```
+This code is not complete and might not run as expected without the definition of `CubeViz_Main_Module.registerDataStructureDefinition()`. However, you can modify it as follows to better handle the potential exceptions that might be thrown when the method is called:  ``` function() {     try {         CubeViz_Main_Module.registerDataStructureDefinition();     } catch (e) {         console.error("An error occurred while registering the data structure definition:", e);     } } ```
+Here is the modified code:   ``` function disableDOMStorage(callback) {   let params = {};   chrome.devtools.remoteDebug.sendCommand("DOMStorage.disable", params, callback); } ```
+Here's the modified Java code:  ``` public void getTableNames(String databaseId, Consumer<Object> opt_callback) {     Map<String, Object> paramObject = new HashMap<>();     paramObject.put("databaseId", databaseId);     ChromeDevToolsRemoteDebug.getInstance().sendCommand("Database.getDatabaseTableNames", paramObject, opt_callback); } ```
+function ( ) { testActionStartsModule ( "confirmUser" , { email : TEST_EMAIL } , "check_registration" ) ; }
+function (filename) {     if (Path.extname(filename) === '.js') {         files.push(Path.join(JS_COVERAGE_BASE, folder, filename));     } }
+Here's a modified version of the code:  ``` function isItalicOrOblique(fontWeight) {     return /^(italic|oblique)$/.test(fontWeight); } ```
+This code block simply returns `false`. To modify it, you could add some logic that returns `true` if certain conditions are met. Here's an example:  ``` function() {   var currentTime = new Date();   if (currentTime.getHours() >= 9 && currentTime.getHours() <= 17) {     return true;   } else {     return false;   } } ```
+function updateUI() {   buildUI(photodb);   photodb.scan();   document.addEventListener('visibilitychange', function() {     if (!document.hidden) {       photodb.scan();     }   }); }
+function modifyJavaCode() {     if (this.user.is("admin")) {         dom.get("modeSwitch").hide();     }     switchClasses("remove"); }
+function ( cm ) { mark["Shift-X"] = cm.getCursor().line; }
+function setOffsetInPixels(offsetInPixels) {   this._offsetInPixels = offsetInPixels; }
+function modifyDataHandlers() {     var index = data.handlers.indexOf(this.handler);     if (index !== -1) {         data.handlers.splice(index);         delete data.spiedEvents[[this.selector, this.eventName]];     } }
+function editUser(id) {   showFloater(ap_ext_path + "floaters.php", "editUsr", 0, id, 400, 230); }
+``` function confirmAndDeleteWorksheet() {     if (confirm("Are you sure you want to delete " + worksheetToEdit + "?")) {         hideMenus();         graphCollection.removeWorksheet(worksheetToEdit);         constructVis();     } } ```
+function getScriptExecutionStatus(callback = () => {}) {   chrome.devtools.remoteDebug.sendCommand("Page.getScriptExecutionStatus", {}, callback); }
+function modifyDeepResolve(filepath, searchname, result) {   deepResolve(this, searchname, filepath, result); }
+``` function updateInlineWidgetHeight() {   let widgetHeight = this.$wrapperDiv.height() + 20;   this.hostEditor.setInlineWidgetHeight(this, widgetHeight, true); } ```
+function modifyScene(scene) {   return def.join(",", scene.acts.x.label, scene.acts.y.label); }
+function(cfg) {     expect(cfg.author.unicode).toBeDefined(); }
+function modifyApiObjectsAndBasePath(apiObjects, basePath) {   this.apiList.createAll(apiObjects);   this.apiList.forEach(api => api.setBaseUrl(basePath)); }
+function modifyModelBase() {   var params = this.getPreset();   params.sunYears = this.getSunYears();   return params; }
+function setDocumentProperties(properties) {   documentProperties = properties;   return this; }
+function (options) {   return new Matrix2(options || {}); }
+function modifyBrowserUrlFocus() {     if (this.currentScreen === this.PAGE_SCREEN) {         this.urlInput.value = this.currentTab.url;         this.urlInput.focus();         this.urlInput.select();         this.showAwesomeScreen();     } }
+function modifyData(data) {   if (data) {     this.text_data = data;   }   return this.text_data; }
+function stopInterval(interval, slideControls) {   clearInterval(interval);   slideControls.pauseResume.html(fn.tmpl('#slice-slide-controls-paused')); }
+``` public void modifyFunction() {     this.setBlurHandler(this); } ```
+public float getLocZ() {     return Float.parseFloat(this.locZ); }
+function modifyFireballAlert() {   alert("1");   sp.fireball(dd.enemy);   dd.processTick(); }
+Here's a modified version of the code:  ``` function updateProperty(name) {   if (s.typeSchema && s.typeSchema.properties[name]) {     let p = s.typeSchema.properties[name];     let v = s.property(name);     v.prepare();     s[name] = v;   } } ```  In this code, I added a check to see if `s.typeSchema` and `s.typeSchema.properties[name]` exist before accessing them, to avoid any potential errors.
+function modifyJavaCode() {   var jPlayer = $("#jPlayer");   var playerToolbar = $("div.toolbar ul.player");   var playlist = $("#Playlist");   this.attachjPlayer(jPlayer, playerToolbar, playlist);   this.attachDomEvents();   this.fadeInContent();   this.attachBubble();   this.runHash(); }
+You can modify the code by adding an else statement to return an empty string if the conditions are not met.  ``` function activeIfEquals(name, testName) {     if (name === testName) {         return 'active';     } else {         return '';     } } ```
+``` function getDefaultCoordinates() {     return { alt: 20, lat: null, lon: null }; } ```
+function modifyRouter(router, context) {   const applicationController = router.get('applicationController');   applicationController.connectOutlet('items', context); }
+function getVolumePercentage() {   return youtubeObject.getVolume() / 100; }
+Here is the modified Java code:   ``` function() {   $(".search input").trigger("keyup"); } ```  I have used `.trigger("keyup")` method instead of `.keyup()` to trigger the keyup event on the search input element.
+function joinValues(values) {   return values.join(' '); }
+function (callback) {     e.dispatch.close(callback);     if (callback.onClose) {         callback.onClose();     } }
+function modifyCode() {   let text = this._promptEntry.getText();   this._promptEntry.setReactive(false);   this._promptEntry.addStylePseudoClass("insensitive");   this._greeterClient.answerQuery(serviceName, text); }
+The following is the modified code:  ``` public String generateHeaderText(Header header) {     StringBuilder builder = new StringBuilder();     builder.append("<span data-spec='http#").append(header.getName()).append("'>");     builder.append(header.getName()).append(":").append("</span>");     builder.append(" <span>").append(header.getValue()).append("</span>");     return builder.toString(); } ```
+function modifyDialog(cm, text, shortText, f) {     if (cm.hasOwnProperty("openDialog")) {         cm.openDialog(text, f);     } else {         let response = prompt(shortText, "");         if (response !== null) {             f(response);         }     } }
+function handleEvent(event) {     this.region.showElement('.current', '0ms'); }
+function () {   if (!PostSrv.isAdmin) {     return 'is-not-admin';   } }
+Here's the modified code:   ``` function dragStart(e) {   let start = [e.pageX, e.pageY];   whenDragStart(start);   handler.on("mouseover", dragDisable)     .on("mouseout", dragDisable)     .on("click", dragDisable); } ```  In this code, the `.mouseover()`, `.mouseout()` and `.click()` functions are changed to use the `.on()` method, which is a more modern way to bind event handlers to elements in jQuery.
+``` public void modifyCode(Response res, Object previous) {     res.send(previous); } ```
+function ( ) {    let expected = fs.readFileSync('test/files/folder/Alice-white-rabbit.jpg');   let result = Buffer.concat(chunks);   assert.deepEqual(result, expected);   done();  }
+Here's the modified code:  ``` function modifyCircleSize() {   var val = +only_numbers_patt.exec($("#circle_size").val());   cityCircle.setRadius(val);   $("#size_slider").slider("option", "value", val); } ```
+Here is the modified Java code:  ``` function (err, datas) {   $('#dialog-message').empty();   console.log("datas[0]: ", datas[0]);   if (datas.length > 0) {     display.init(datas);   } } ```
+``` public boolean evaluateCondition(String condition) {   if (condition == null) {     return true;   }   return ExpressionEvaluator.evaluate(condition); } ```
+function editAvatarViewRender() {     console.log("editAvatarView:render");     this._initMediaUploader();     $("#avatar-viewer").append(`<img src="${this.model.get("Avatar").Files.medium.RelativeUri}" />`);     return this; }
+public void refresh() {     this._refresh(); }
+The code seems to be using a template engine to render the results of some tests in an HTML page. Here's the modified code:  ``` function (doc, req) {   return {     title: 'See Reflections Test Results',     content: templates.render('see_refl.html', {doc, req})   }; } ```
+function ( target ) {   let forcedTarget = this._forcedTarget;   this._super(forcedTarget);   this._action.startWithTarget(forcedTarget); }
+Here is the modified code:  ``` function modify() {     User user = Common.entity.create(Common.entity.TYPE_TEST_A, Map.of("name", "freddy"));     user.saveCB(null, this); } ```
+Here's the modified code:  ``` public String modifyFunction(Object x, Object[] fd) {     if (fd[0].equals("string") && Pattern.matches("[$_a-z0-9][a-z0-9]*", fd[1])) {         return x + "." + fd[1];     } else {         return x + "[" + tfd + "]";     } } ```
+``` function handleResult(result, status) {     if (status === 'OK') {         console.log(result);     } } ```
+function handleEvent(event) {     if (opts.onlyIf(this)) {         callFireCallback(opts.callback, $(this), event, false);     } }
+``` function modifyGroupData(i, group) {   idArr.push($(group).data("groupid"));   titleArr.push($(group).data("grouptitle")); } ```
+function isMuted() {   return youtubeObject.isMuted(); }
+function ( ) {     addSpeakerLine ( ) ;     claimTalk ( ) ;     editTalkComment ( ) ;     changeAnonymous ( ) ;     claimButton ( ) ; }
+``` public void modifyFunction() {     for (int i = 0; i < Gen.data.length; i++) {         Gen.locked[i] = false;     }     Gen.updateButtonText();     Gen.showData(); } ```

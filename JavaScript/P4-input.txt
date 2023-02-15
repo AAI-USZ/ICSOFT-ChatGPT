@@ -1,0 +1,100 @@
+Continue the implementation of the following function using 792 tokens: function
+Continue the implementation of the following function using 273 tokens: function ( )
+Continue the implementation of the following function using 84 tokens: function ( storageId , key , value , opt_callback ) { var paramObject = { 'storageId' : storageId , 'key' : key , 'value' : value , } ; chrome .
+Continue the implementation of the following function using 58 tokens: function ( ) { return $curr . removeClass (
+Continue the implementation of the following function using 10 tokens: function ( match , operator , key ) { if ( ! key ) { return operator === '*' ? '.*' : match ; } keys . push ( key ) ; return operator === '*' ? '(.*?)' :
+Continue the implementation of the following function using 176 tokens: function ( err , docs ) { var
+Continue the implementation of the following function using 122 tokens: function
+Continue the implementation of the following function using 522 tokens: function ( ) {
+Continue the implementation of the following function using 266 tokens: function ( e )
+Continue the implementation of the following function using 13 tokens: function ( emp ) { assert . instanceOf ( emp , Employee ) ; assert . equal ( emp . id
+Continue the implementation of the following function using 250 tokens: function
+Continue the implementation of the following function using 97 tokens: function ( ) { page ++ ; getRelatedContent ( )
+Continue the implementation of the following function using 51 tokens: function ( res ) { Object . append ( this
+Continue the implementation of the following function using 62 tokens: function ( style , propName , prevValue , prevPriority , rule , baseText ) { var styleSheet = rule . parentStyleSheet
+Continue the implementation of the following function using 90 tokens: function ( error , docs ) { console . log (
+Continue the implementation of the following function using 41 tokens: function ( t )
+Continue the implementation of the following function using 82 tokens: function finalBarX ( d ) { return chart . x ( )
+Continue the implementation of the following function using 120 tokens: function ( ) { this . stopAllActions ( ) ; this . unscheduleAllSelectors ( ) ; this . _arrayMakeObjectsPerformSelector ( this . _children
+Continue the implementation of the following function using 28 tokens: function ( name , i ) { if ( ! _ . isUndefined ( opts [ name ] ) ) {
+Continue the implementation of the following function using 572 tokens: function ( ) { controller . adminPath = '/admin' ; controller . addLocation ( '/admin/api' ) ; deepEqual ( controller . locations , [ ] ) ; ok ( utils . startsWith
+Continue the implementation of the following function using 54 tokens: function ( ) {
+Continue the implementation of the following function using 156 tokens: function Tilteed ( ) { BaseSite . call ( this ) ; this . siteName = "Tilteed" ; this . siteDisplayName = "Tilteed" ; this . siteURL = "http://www.tilteed.com" ; this . siteFeedURL = "http://www.tilteed.com/home/rss"
+Continue the implementation of the following function using 61 tokens: function ( err , result ) { expect ( err ) . to . eql (
+Continue the implementation of the following function using 47 tokens: function ( )
+Continue the implementation of the following function using 66 tokens: function ( ) { var filters = _ . clone ( model . get (
+Continue the implementation of the following function using 142 tokens: function ( frame ) { this . setDisabledImage ( cc . Sprite .
+Continue the implementation of the following function using 13 tokens: function ( ) { return this .
+Continue the implementation of the following function using 100 tokens: function ( opt_callback ) { var paramObject = { } ; chrome .
+Continue the implementation of the following function using 157 tokens: function ( cfg ) { expect ( cfg . icons . length ) . toEqual ( 1 ) ; expect
+Continue the implementation of the following function using 111 tokens: function ( done ) { when ( registry . lookup ( 'application/bogus' )
+Continue the implementation of the following function using 33 tokens: function ( e ) { e .
+Continue the implementation of the following function using 209 tokens: function ( subcontext ,
+Continue the implementation of the following function using 221 tokens: function SubtitleTableViewCell ( reuseIdentifier ) { Pushpop . TableViewCell . prototype . constructor . apply ( this , arguments )
+Continue the implementation of the following function using 348 tokens: function ( ) {
+Continue the implementation of the following function using 154 tokens: function ( ) { var
+Continue the implementation of the following function using 161 tokens: function ( error , results ) { var
+Continue the implementation of the following function using 120 tokens: function browser_followLink ( e ) { e . preventDefault ( )
+Continue the implementation of the following function using 192 tokens: function ( time ) { this . unschedule ( this . resumeGrossini ) ; var grossini = this . getChildByTag ( TAG_GROSSINI ) ; cc
+Continue the implementation of the following function using 1001 tokens: function ( canvas ) { if
+Continue the implementation of the following function using 105 tokens: function ( ) {
+Continue the implementation of the following function using 89 tokens: function ( opt_callback ) { var paramObject = { } ; chrome .
+Continue the implementation of the following function using 88 tokens: function ( databaseId , opt_callback ) { var paramObject = { 'databaseId' : databaseId , } ; chrome
+Continue the implementation of the following function using 105 tokens: function ( ) { testActionStartsModule ( "doConfirmUser" , { email :
+Continue the implementation of the following function using 84 tokens: function ( filename ) { if ( Path . extname ( filename ) === '.js' ) { files . push ( Path . join
+Continue the implementation of the following function using 117 tokens: function (
+Continue the implementation of the following function using 27 tokens: function ( ) {
+Continue the implementation of the following function using 42 tokens: function ( ) { buildUI (
+Continue the implementation of the following function using 67 tokens: function ( ) { if ( self . user . is ( "admin" )
+Continue the implementation of the following function using 249 tokens: function ( cm )
+Continue the implementation of the following function using 253 tokens: function ( offsetInPixels ) { this . _offsetInPixels = offsetInPixels
+Continue the implementation of the following function using 265 tokens: function ( ) {
+Continue the implementation of the following function using 206 tokens: function
+Continue the implementation of the following function using 246 tokens: function ( ) { if ( confirm ( "Are you sure you want to delete
+Continue the implementation of the following function using 100 tokens: function ( opt_callback ) { var paramObject = { } ; chrome .
+Continue the implementation of the following function using 19 tokens: function ( filepath ) {
+Continue the implementation of the following function using 14 tokens: function ( ) { this . hostEditor . setInlineWidgetHeight ( this , this . $wrapperDiv . height (
+Continue the implementation of the following function using 23 tokens: function ( scene ) { return def . join (
+Continue the implementation of the following function using 22 tokens: function ( cfg ) { expect ( cfg . author
+Continue the implementation of the following function using 171 tokens: function ( apiObjects , basePath )
+Continue the implementation of the following function using 32 tokens: function ( ) { var params = ModelBase . prototype . getPreset . call ( this ) ; params
+Continue the implementation of the following function using 576 tokens: function ( properties )
+Continue the implementation of the following function using 114 tokens: function ( )
+Continue the implementation of the following function using 78 tokens: function browser_urlFocus ( ) { if ( this . currentScreen === this . PAGE_SCREEN ) { this
+Continue the implementation of the following function using 227 tokens: function
+Continue the implementation of the following function using 174 tokens: function ( interval , slideControls ) { clearInterval ( interval ) ; slideControls . pauseResume . html ( fn . tmpl
+Continue the implementation of the following function using 364 tokens: function ( )
+Continue the implementation of the following function using 65 tokens: function ( ) {
+Continue the implementation of the following function using 86 tokens: function ( ) {
+Continue the implementation of the following function using 367 tokens: function
+Continue the implementation of the following function using 62 tokens: function ( ) { this . attachjPlayer ( $ ( "#jPlayer" ) , $ ( "div.toolbar ul.player" ) , $ ( "#Playlist" ) ) ; this . attachDomEvents ( ) ; this . fadeInContent ( ) ; this . attachBubble ( )
+Continue the implementation of the following function using 1109 tokens: function
+Continue the implementation of the following function using 2 tokens: function ( ) { return { alt : 20 , lat : null , lon : null
+Continue the implementation of the following function using 327 tokens: function ( router
+Continue the implementation of the following function using 30 tokens: function ( ) { return
+Continue the implementation of the following function using 129 tokens: function ( ) { $ (
+Continue the implementation of the following function using 107 tokens: function ( values ) {
+Continue the implementation of the following function using 164 tokens: function ( ) { e . dispatch . close ( callback )
+Continue the implementation of the following function using 159 tokens: function ( ) { let _text = this . _promptEntry . get_text ( ) ; this . _promptEntry . reactive = false ; this . _promptEntry . add_style_pseudo_class ( 'insensitive' ) ; this .
+Continue the implementation of the following function using 139 tokens: function ( header ) { return
+Continue the implementation of the following function using 667 tokens: function
+Continue the implementation of the following function using 293 tokens: function
+Continue the implementation of the following function using 421 tokens: function
+Continue the implementation of the following function using 28 tokens: function dragStart ( e ) { start = [ e . pageX , e . pageY ] ; whenDragStart ( start ) ; handler . mouseover ( dragDisable ) . mouseout ( dragDisable ) . click
+Continue the implementation of the following function using 484 tokens: function
+Continue the implementation of the following function using 232 tokens: function ( ) { assert . deepEqual ( Buffer . concat ( chunks )
+Continue the implementation of the following function using 118 tokens: function ( ) { var val
+Continue the implementation of the following function using 363 tokens: function ( err , datas )
+Continue the implementation of the following function using 17 tokens: function ( condition ) { if ( condition == undefined ) { return true ; } return expr_evaluator .
+Continue the implementation of the following function using 92 tokens: function ( ) { log ( 'editAvatarView:render' ) ; this . _initMediaUploader ( ) ; $ ( '#avatar-viewer' ) . append ( '<img
+Continue the implementation of the following function using 53 tokens: function ( ) {
+Continue the implementation of the following function using 215 tokens: function ( doc , req )
+Continue the implementation of the following function using 285 tokens: function ( target )
+Continue the implementation of the following function using 427 tokens: function ( )
+Continue the implementation of the following function using 110 tokens: function ( ) { if ( fd [ 0 ] === "string" &&
+Continue the implementation of the following function using 158 tokens: function ( result , status )
+Continue the implementation of the following function using 31 tokens: function ( event ) { if ( opts . onlyIf ( this ) ) {
+Continue the implementation of the following function using 83 tokens: function ( i , group ) { idArr . push ( $ ( group ) . data
+Continue the implementation of the following function using 26 tokens: function ( ) { return
+Continue the implementation of the following function using 106 tokens: function ( ) {
+Continue the implementation of the following function using 22 tokens: function ( ) { for ( var i = 0 ; Gen . data . length > i ; i ++ ) { Gen . locked [ i ] = false ; } Gen .

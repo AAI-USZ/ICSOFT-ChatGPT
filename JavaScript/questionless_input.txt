@@ -1,0 +1,100 @@
+function checkPassword ( pass ) { if ( ! pass || pass . length < 8 || pass . length > 80 ) { return "valid passwords are between 8 and 80 chars" ; } }
+function ( ) { expect ( result ) . toHaveOwnProperty ( "foo" ) ; }
+function ( storageId , key , value , opt_callback ) { var paramObject = { 'storageId' : storageId , 'key' : key , 'value' : value , } ; chrome . devtools . remoteDebug . sendCommand ( 'DOMStorage.setDOMStorageItem' , paramObject , opt_callback ) ; }
+function ( ) { return $curr . removeClass ( "" + options . transition + " out active reverse" ) ; }
+function ( match , operator , key ) { if ( ! key ) { return operator === '*' ? '.*' : match ; } keys . push ( key ) ; return operator === '*' ? '(.*?)' : '([^/]*)' ; }
+function ( err , docs ) { var wordviews = docs . length ; cb ( null , { "Word views" : wordviews } ) ; }
+function _shouldShowInTree ( entry ) { return [ ".git" , ".svn" , ".DS_Store" , "Thumbs.db" ] . indexOf ( entry . name ) === - 1 ; }
+function ( ) { assert . equal ( subject . cached , subject . _accounts ) ; }
+function ( e ) { var key = e . which || e . keyCode ; if ( key === 13 ) { performSearch ( ) ; e . halt ( ) ; return false ; } }
+function ( emp ) { assert . instanceOf ( emp , Employee ) ; assert . equal ( emp . id , 6 ) ; next ( ) ; }
+function ( ev ) { MobDeals . Account . loginPrompt ( ) ; }
+function ( ) { page ++ ; getRelatedContent ( ) ; getRelatedContent ( true ) ; }
+function ( res ) { Object . append ( this , JSON . parse ( res . value ) ) ; if ( callback ) { callback ( ) ; } }
+function ( style , propName , prevValue , prevPriority , rule , baseText ) { var styleSheet = rule . parentStyleSheet ; this . markSheetDirty ( styleSheet ) ; }
+function ( error , docs ) { console . log ( "???" + newData ) }
+function ( t ) { set . modifiersByName [ t ] = modifier ; arr . push ( { name : modifier . name , src : t , value : modifier . value } ) ; }
+function finalBarX ( d ) { return chart . x ( ) ( d . key ) + chart . margins ( ) . left ; }
+function ( ) { this . stopAllActions ( ) ; this . unscheduleAllSelectors ( ) ; this . _arrayMakeObjectsPerformSelector ( this . _children , "cleanup" ) ; }
+function ( name , i ) { if ( ! _ . isUndefined ( opts [ name ] ) ) { self [ name ] = opts [ name ] ; } }
+function ( ) { controller . adminPath = '/admin' ; controller . addLocation ( '/admin/api' ) ; deepEqual ( controller . locations , [ ] ) ; ok ( utils . startsWith ( controller . errorHandler . lastError , 'Adding sublocations to admin is not supported' ) ) mock_stub . verify ( ) ; }
+function ( ) { clearTime ( timeNum ) ; $ ( this ) . dialog ( "close" ) ; }
+function Tilteed ( ) { BaseSite . call ( this ) ; this . siteName = "Tilteed" ; this . siteDisplayName = "Tilteed" ; this . siteURL = "http://www.tilteed.com" ; this . siteFeedURL = "http://www.tilteed.com/home/rss" ; this . imgWidth = 370 ; this . imgHeight = 480 ; }
+function ( err , result ) { expect ( err ) . to . eql ( { "foo" : "must not be bar" } ) ; done ( ) ; }
+function ( ) { form && form . triggerHandler ( 'submit' ) ; }
+function ( ) { var filters = _ . clone ( model . get ( 'filters' ) ) || { } ; filters [ filter_group_id ] = filter_group . getFilters ( ) ; model . set ( 'query_filters' , filters ) ; }
+function ( frame ) { this . setDisabledImage ( cc . Sprite . createWithSpriteFrameNameNameNameNameNameNameNameNameName ( frame ) ) ; }
+function ( ) { return this . context ; }
+function ( opt_callback ) { var paramObject = { } ; chrome . devtools . remoteDebug . sendCommand ( 'Page.getScriptExecutionStatus' , paramObject , opt_callback ) ; }
+function ( cfg ) { expect ( cfg . icons . length ) . toEqual ( 1 ) ; expect ( "pass.png" in cfg . icons ) . toBeTruthy ( ) ; }
+function ( done ) { when ( registry . lookup ( 'application/bogus' ) , never ( done ) , function ( ) { assert ( true ) ; done ( ) ; } ) ; }
+function ( e ) { e . preventdefault ( ) ; this . hide ( ) ; this . trigger ( 'renameColumn' ) ; return false ; }
+function ( subcontext , subtemplate ) { options = subtemplate . options ; return subtemplate . document . createDocumentFragment ( ) ; }
+function SubtitleTableViewCell ( reuseIdentifier ) { Pushpop . TableViewCell . prototype . constructor . apply ( this , arguments ) ; this . $element . addClass ( 'pp-subtitle-table-view-cell' ) ; }
+function ( ) { var uname = getValue ( $ ( this ) . val ( ) , 4 , 2 , dataTable_vNetworks ) ; $ ( 'input#NETWORK_UNAME' , section_networks ) . val ( uname ) ; }
+function ( ) { var self = this ; this . phoneNumbersPool . each ( function ( wp ) { self . appendWorkingPoint ( wp ) ; } ) ; }
+function ( error , results ) { var results = JSON . parse ( results . body ) var matches = results && results . Results ? results . Results : null cb ( error , matches ) }
+function browser_followLink ( e ) { e . preventDefault ( ) ; this . navigate ( e . target . getAttribute ( 'href' ) ) ; }
+function ( time ) { this . unschedule ( this . resumeGrossini ) ; var grossini = this . getChildByTag ( TAG_GROSSINI ) ; cc . ActionManager . sharedManager ( ) . resumeTarget ( grossini ) ; }
+function ( canvas ) { if ( canvas . getContext ) { return canvas . getContext ( '2d' ) ; } else { alert ( "Your browser doesn't support the 'canvas' api." ) ; throw "Browser doesn't support canvas api." ; } }
+function ( ) { CubeViz_Main_Module . registerDataStructureDefinition ( ) ; }
+function ( opt_callback ) { var paramObject = { } ; chrome . devtools . remoteDebug . sendCommand ( 'DOMStorage.disable' , paramObject , opt_callback ) ; }
+function ( databaseId , opt_callback ) { var paramObject = { 'databaseId' : databaseId , } ; chrome . devtools . remoteDebug . sendCommand ( 'Database.getDatabaseTableNames' , paramObject , opt_callback ) ; }
+function ( ) { testActionStartsModule ( "doConfirmUser" , { email : TEST_EMAIL } , "check_registration" ) ; }
+function ( filename ) { if ( Path . extname ( filename ) === '.js' ) { files . push ( Path . join ( JS_COVERAGE_BASE , folder , filename ) ) ; } }
+function ( fontWeight ) { return ( /^(italic|oblique)$/ ) . test ( fontWeight ) ; }
+function ( ) { return false ; }
+function ( ) { buildUI ( photodb ) ; photodb . scan ( ) ; document . addEventListener ( 'mozvisibilitychange' , function visibilityChange ( ) { if ( ! document . mozHidden ) { photodb . scan ( ) ; } } ) ; }
+function ( ) { if ( self . user . is ( "admin" ) ) dom . get ( "modeSwitch" ) . hide ( ) ; switchClasses ( "remove" ) ; }
+function ( cm ) { mark [ "Shift-X" ] = cm . getCursor ( ) . line ; }
+function ( offsetInPixels ) { this . _offsetInPixels = offsetInPixels ; }
+function ( ) { data . handlers . splice ( data . handlers . indexOf ( this . handler ) ) ; delete data . spiedEvents [ [ this . selector , this . eventName ] ] ; }
+function ap_ext_editUser ( id ) { floaterShow ( ap_ext_path + "floaters.php" , "editUsr" , 0 , id , 400 , 230 ) ; }
+function ( ) { if ( confirm ( "Are you sure you want to delete " + worksheetToEdit + "?" ) ) { hideMenus ( ) ; graphCollection . removeWorksheet ( worksheetToEdit ) ; constructVis ( ) ; } }
+function ( opt_callback ) { var paramObject = { } ; chrome . devtools . remoteDebug . sendCommand ( 'Page.getScriptExecutionStatus' , paramObject , opt_callback ) ; }
+function ( filepath ) { deepResovle ( self , searchname , filepath , result ) ; }
+function ( ) { this . hostEditor . setInlineWidgetHeight ( this , this . $wrapperDiv . height ( ) + 20 , true ) ; }
+function ( scene ) { return def . join ( "," , scene . acts . x . label , scene . acts . y . label ) ; }
+function ( cfg ) { expect ( cfg . author . unicode ) . toEqual ( "" ) ; }
+function ( apiObjects , basePath ) { this . apiList . createAll ( apiObjects ) ; this . apiList . each ( function ( api ) { api . setBaseUrl ( basePath ) ; } ) ; }
+function ( ) { var params = ModelBase . prototype . getPreset . call ( this ) ; params . sunYears = this . getSunYears ( ) ; return params ; }
+function ( properties ) { documentProperties = properties return this }
+function ( ) { return new Matrix2 ( { } ) ; }
+function browser_urlFocus ( ) { if ( this . currentScreen === this . PAGE_SCREEN ) { this . urlInput . value = this . currentTab . url ; this . urlInput . select ( ) ; this . showAwesomeScreen ( ) ; } }
+function ( data ) { if ( data != null ) this . text_data = data ; return this . text_data ; }
+function ( interval , slideControls ) { clearInterval ( interval ) ; slideControls . pauseResume . html ( fn . tmpl ( '#slice-slide-controls-paused' ) ) ; }
+function ( ) { self . blurHandler ( this ) ; }
+function ( ) { return parseFloat ( this . locZ ) ; }
+function ( ) { alert ( "1" ) ; sp . fireball ( dd . enemy ) ; dd . processTick ( ) ; }
+function ( name ) { var p = s . typeSchema . properties [ name ] ; var v = s . property ( name ) ; v . prepare ( ) ; s [ name ] = v ; }
+function ( ) { this . attachjPlayer ( $ ( "#jPlayer" ) , $ ( "div.toolbar ul.player" ) , $ ( "#Playlist" ) ) ; this . attachDomEvents ( ) ; this . fadeInContent ( ) ; this . attachBubble ( ) ; this . runHash ( ) ; }
+function activeIfEquals ( name , testName ) { if ( name === testName ) return 'active' ; return '' ; }
+function ( ) { return { alt : 20 , lat : null , lon : null } }
+function ( router , context ) { router . get ( 'applicationController' ) . connectOutlet ( 'items' ) ; }
+function ( ) { return youtubeObject . getVolume ( ) / 100 ; }
+function ( ) { $ ( ".search input" ) . keyup ( ) ; }
+function ( values ) { return values . join ( ' ' ) ; }
+function ( ) { e . dispatch . close ( callback ) ; if ( callback . onClose ) callback . onClose ( ) ; }
+function ( ) { let _text = this . _promptEntry . get_text ( ) ; this . _promptEntry . reactive = false ; this . _promptEntry . add_style_pseudo_class ( 'insensitive' ) ; this . _greeterClient . call_answer_query ( serviceName , _text ) ; }
+function ( header ) { return templates . _wrap_pre ( [ [ "span" , header . name + ":" , "data-spec" , "http#" + header . name ] , [ "span" , " " + header . value ] ] ) ; }
+function dialog ( cm , text , shortText , f ) { if ( cm . openDialog ) cm . openDialog ( text , f ) ; else f ( prompt ( shortText , "" ) ) ; }
+function ( event ) { this . region . showElement ( '.current' , '0ms' ) ; }
+function ( ) { if ( ! PostSrv . isAdmin ) return 'is-not-admin' ; }
+function dragStart ( e ) { start = [ e . pageX , e . pageY ] ; whenDragStart ( start ) ; handler . mouseover ( dragDisable ) . mouseout ( dragDisable ) . click ( dragDisable ) ; }
+function ( previous ) { res . send ( previous ) ; }
+function ( ) { assert . deepEqual ( Buffer . concat ( chunks ) , fs . readFileSync ( 'test/files/folder/Alice-white-rabbit.jpg' ) ) ; done ( ) ; }
+function ( ) { var val = + only_numbers_patt . exec ( $ ( "#circle_size" ) . val ( ) ) ; cityCircle . setRadius ( val ) ; $ ( "#size_slider" ) . slider ( "option" , "value" , val ) ; }
+function ( err , datas ) { $ ( '#dialog-message' ) . html ( '' ) ; console . log ( "datas[0] : " , datas [ 0 ] ) ; display . init ( datas ) ; }
+function ( condition ) { if ( condition == undefined ) { return true ; } return expr_evaluator . eval ( condition ) ; }
+function ( ) { log ( 'editAvatarView:render' ) ; this . _initMediaUploader ( ) ; $ ( '#avatar-viewer' ) . append ( '<img src="' + this . model . get ( 'Avatar' ) . Files . medium . RelativeUri + '" />' ) ; return this ; }
+function ( ) { this . _refresh ( ) ; }
+function ( doc , req ) { return { title : 'See Reflections Test Results' , content : templates . render ( 'see_refl.html' , req , doc ) } ; }
+function ( target ) { this . _super ( this . _forcedTarget ) ; this . _action . startWithTarget ( this . _forcedTarget ) ; }
+function ( ) { var user = Common . entity . create ( Common . entity . TYPE_TEST_A , { name : 'freddy' } ) ; user . saveCB ( null , this ) ; }
+function ( ) { if ( fd [ 0 ] === "string" && /[$_a-z0-9][a-z0-9]*/ . test ( fd [ 1 ] ) ) { return x + "." + fd [ 1 ] ; } else { return x + "[" + tfd + "]" ; } }
+function ( result , status ) { if ( status === 'OK' ) { console . log ( result ) ; } }
+function ( event ) { if ( opts . onlyIf ( this ) ) { fireCallback ( opts . callback , $ ( this ) , event , false ) ; } }
+function ( i , group ) { idArr . push ( $ ( group ) . data ( "groupid" ) ) ; titleArr . push ( $ ( group ) . data ( "grouptitle" ) ) ; }
+function ( ) { return youtubeObject . isMuted ( ) ; }
+function ( ) { _addSpeakerLine ( ) ; _claimTalk ( ) ; _editTalkComment ( ) ; _changeAnonymous ( ) ; _claimButton ( ) ; }
+function ( ) { for ( var i = 0 ; Gen . data . length > i ; i ++ ) { Gen . locked [ i ] = false ; } Gen . button_text ( ) ; Gen . show ( ) ; }

@@ -1,0 +1,100 @@
+public int energy_getEnergyStored() { return ((int) (cr0s.warpdrive.Commons.clamp(0L, energy_getMaxStorage(), energyStored_internal))); }
+private void initializeAdapter() { adapter = new com.example.heetel.todo.RVAdapter(tasks, this); recyclerView.setAdapter(adapter); }
+public Card getTop() { if ((index) == (-1)) return null; return this.column[index]; }
+@java.lang.Override public java.lang.CharSequence getPageTitle(int position) { if (position < (com.podraza.android.gaogao.gaogao.MainActivity.todos.size())) { return com.podraza.android.gaogao.gaogao.MainActivity.todos.get(position).getName(); }else return null; }
+@org.junit.Test(expected = java.lang.IllegalArgumentException.class) public void testSendMessageForNull_replyToAddressMethodOne() throws java.lang.IllegalArgumentException { classUnderTest.sendMessage(exchange, null, responseKey, responseMessage); }
+private void createUsers() { }
+@org.springframework.web.bind.annotation.RequestMapping(method = org.springframework.web.bind.annotation.RequestMethod.GET) public java.lang.String printHello(org.springframework.ui.ModelMap model) { return "index"; }
+private synchronized void scheduleRegistration() { if (started) { org.eclipse.leshan.client.servers.RegistrationEngine.LOG.info("Unable to connect to any server, next retry in {}s...", org.eclipse.leshan.client.servers.RegistrationEngine.BS_RETRY); registerFuture = schedExecutor.schedule(new org.eclipse.leshan.client.servers.RegistrationEngine.RegistrationTask(), org.eclipse.leshan.client.servers.RegistrationEngine.BS_RETRY, java.util.concurrent.TimeUnit.SECONDS); } }
+@java.lang.Override public void run() { }
+@java.lang.Override public void loadingStart() { loading = new android.app.ProgressDialog(this); loading.setMessage("Loading"); loading.show(); }
+@java.lang.Override public <S extends com.netbuilder.entities.Payment> S insert(S arg0) { mongoOperation.save(arg0); return arg0; }
+public void initializerTimer() { this.timer = new java.util.Timer(); }
+@java.lang.Override protected void setupCommonUIDelegate(@android.support.annotation.NonNull com.playground.notification.app.activities.CommonUIDelegate commonUIDelegate) { super.setupCommonUIDelegate(commonUIDelegate); commonUIDelegate.setDrawerLayout(mBinding.drawerLayout); commonUIDelegate.setNavigationView(mBinding.navView); commonUIDelegate.setAppListView(mBinding.appListFl); }
+private SalarySlipKata.domain.GBP perMonth(SalarySlipKata.domain.GBP value) { return value.divideBy(SalarySlipKata.application_service.SalarySlipApplication.TWELVE_MONTHS); }
+@java.lang.Override public boolean onPreferenceChange(android.preference.Preference preference, java.lang.Object newValue) { if (((java.lang.Boolean) (newValue))) android.widget.Toast.makeText(this.getActivity(), R.string.home_widget_change, Toast.LENGTH_SHORT).show(); return true; }
+public void start() { createDatabase(); }
+@java.lang.Override public java.lang.String getAccessTransformerClass() { return null; }
+@java.lang.Override public void run() { buttonStartStop.setBackgroundResource(R.drawable.start_68); }
+@java.lang.Override public void onClick(android.view.View view) { int adapterPosition = getAdapterPosition(); if (adapterPosition != 0) { callback.onClickStep((adapterPosition - 1)); } }
+public int nextId() { return com.example.pustikom.adapterplay.user.StudentList.studentList.size(); }
+public void executeInverseCommand() throws java.text.ParseException, seedu.todoapp.commons.exceptions.IllegalValueException, seedu.todoapp.logic.commands.exceptions.CommandException, seedu.todoapp.model.person.UniqueTaskList.TaskInvalidTimestampsException { this.undoCommand.setData(model); this.undoCommand.execute(); }
+public com.Heather.Card dealcard() { java.util.Random num = new java.util.Random(); int r = num.nextInt(theDeck.size()); com.Heather.Card card = theDeck.remove(r); return card; }
+@java.lang.Override public double getWeightValue(int time) { return java.lang.Math.exp((time * (-(this.decayRate)))); }
+public boolean updateItem(long itemID, java.lang.String systemID, java.lang.String title);
+@java.lang.Override protected boolean check() throws java.lang.Exception { return (processAPI.getPendingHumanTaskInstances(getSession().getUserId(), 0, 10, null).size()) >= 1; }
+private void drawingPanelMouseDragged(java.awt.event.MouseEvent evt) { horaireController.moveActivite(evt.getPoint()); updateLogMessage(evt); drawingPanel.repaint(); }
+@java.lang.Override public boolean matches(org.jsoup.nodes.Element root, org.jsoup.nodes.Element element) { return (element.hasAttr(key)) && (pattern.matcher(element.attr(key)).matches()); }
+public void exeDRAW() { if (eplayer.deck.curCards.isEmpty()) { eplayer.life = 0; hasWon = true; gameOver = true; inGameState = GAME_OVER_STATE; }else { ehand.add(eplayer.deck.curCards.removeFirst()); } }
+@java.lang.Override protected void drawValue(android.graphics.Canvas c, java.lang.String value, float xPos, float yPos) { super.drawValue(c, value, xPos, (yPos + (mYOffset))); }
+public dominio.giocatori.GiocatoreOnline giocatoreDaNome(java.lang.String nome) { for (dominio.giocatori.GiocatoreOnline giocatore : giocatori) { if (nome.equals(giocatore.getNome())) { return giocatore; } } return null; }
+@java.lang.Override public void onClick(android.view.View v) { }
+public int getWhiteStrength() { return java.lang.Integer.parseInt(parts[22]); }
+protected final void registerEventListener(java.lang.String event, de.heinzen.probplugin.visualization.listener.EventListener listener) { controller.registerEventListener(event, listener); }
+public nl.tudelft.jpacman.Level nextLevel() { nl.tudelft.jpacman.Level level = makeLevel((++(currentLevel))); if (level == null) { level = makeLevel((--(currentLevel))); } level.setIndex(currentLevel); return level; }
+public java.util.List<com.astedt.robin.concurrentobjecthandler.ConcurrentObject> getObjects() { return objects; }
+public void onClick(android.content.DialogInterface dialog, int which) { dialog.dismiss(); startActivity(new android.content.Intent(this, hyjjr.cs160.com.safe_radius.MainActivity.class)); this.finish(); }
+@java.lang.Override public java.lang.String getQuestionSortType(java.lang.String sessionkey, java.lang.String isPreparation, java.lang.String subject) { de.thm.arsnova.entities.SortOrder sortOrder = databaseDao.getSortOrder(sessionkey, isPreparation, subject); return sortOrder.getSortType(); }
+public int setPeerNodeStatus(long now) { return setPeerNodeStatus(now, false, false); }
+public int getRandomX() { return randomBetween(minX, maxX); }
+public void autonomousPeriodic() { if ((BA.isFinished()) == false) { BA.execute(); } }
+public static void setConfigurationFields(java.lang.Object configurable, org.apache.flume.Context context, java.lang.String subPropertiesPrefix) throws org.apache.flume.conf.ConfigurationException { java.util.Map<java.lang.String, java.lang.String> properties = context.getSubProperties(subPropertiesPrefix); org.apache.flume.tools.FlumeBeanConfigurator.setConfigurationFields(configurable, properties); }
+public void setEraserWidth(float width) { bitmapPaint.setStrokeWidth(width); eraserWidth = width; }
+@de.escalon.hypermedia.action.Action(value = "ReviewAction") @org.springframework.web.bind.annotation.RequestMapping(value = "/{rating}", params = "reviewBody", method = org.springframework.web.bind.annotation.RequestMethod.POST) @org.springframework.web.bind.annotation.ResponseBody public org.springframework.http.ResponseEntity<java.lang.Void> addReview(@org.springframework.web.bind.annotation.PathVariable @de.escalon.hypermedia.action.Select(value = { "excellent" , "mediocre" , "abysmal" }) final java.lang.String rating, @org.springframework.web.bind.annotation.RequestParam(defaultValue = "excellent") @de.escalon.hypermedia.action.Input(minLength = 5, pattern = "[ -~]*") final java.lang.String reviewBody) { return null; }
+@java.lang.Override public minetweaker.api.item.IItemStack transform(minetweaker.api.item.IItemStack item, minetweaker.api.player.IPlayer byPlayer) { return item.withAmount(item.getAmount()); }
+@java.lang.Override public void onSwiped(android.support.v7.widget.RecyclerView.ViewHolder viewHolder, int direction) { dispalySnackBar(viewHolder.getAdapterPosition()); list.remove(viewHolder.getAdapterPosition()); adapter.notifyItemRemoved(viewHolder.getAdapterPosition()); }
+private static boolean checkClass(java.lang.String name, java.util.List<java.lang.String> names) { return names.contains(name); }
+@java.lang.Override public void addFront(com.flowpowered.math.vector.Vector3i vector) { vector3iTuple[0] = vector; currentCapacity = 1 + ((vector3iTuple[1]) == null ? 0 : 1); }
+protected synchronized com.google.android.gms.common.api.GoogleApiClient buildGoogleApiClient() { return new com.google.android.gms.common.api.GoogleApiClient.Builder(getActivity()).addConnectionCallbacks(this).addOnConnectionFailedListener(this).addApi(LocationServices.API).build(); }
+public static long next() { return Pandigital.next(Pandigital.current); }
+@org.junit.Test public void unmark_invalidTaskIndex_failure() { commandBox.runCommand(("unmark " + ((expectedTasksList.length) + 1))); assertResultMessage(seedu.todoapp.commons.core.Messages.MESSAGE_INVALID_TASK_DISPLAYED_INDEX); }
+@org.junit.Test public void addRecipe3() { mocha = new edu.pjatk.inn.coffeemaker.impl.Recipe(); mocha.setName("Mocha"); mocha.setPrice((-50)); org.junit.Assert.assertFalse(coffeeMaker.addRecipe(mocha)); }
+@java.lang.Override public void receiveMessage(se.umu.cs.dist.ht15.dali_ens15bsf.Message m) { orderer.addMessage(m); }
+@javafx.fxml.FXML private void changePassword() { if ((controller.PasswordChangerController.getInstance().getStage()) == null) controller.PasswordChangerController.getInstance().initStage(); controller.PasswordChangerController.getInstance().getStage().show(); }
+@java.lang.Override public void onClick(android.view.View v) { mViewPager.setCurrentItem(((mViewPager.getCurrentItem()) - 1)); }
+@java.lang.Override public void doError(java.lang.String message) { }
+@java.lang.Override public void run() { }
+public int getCurrentRoll() { return currentRoll; }
+@java.lang.Override public void onSuccess(@javax.annotation.Nullable final java.lang.Void result) { org.opendaylight.yanglib.impl.YangLibProvider.LOG.debug("Modules state successfully populated with new modules"); }
+@java.lang.Override public void onStatusChanged(java.lang.String arg0, int arg1, android.os.Bundle arg2) { if ((org.immopoly.android.helper.LocationHelper.mlocListener) != null) org.immopoly.android.helper.LocationHelper.mLocationManager.removeUpdates(org.immopoly.android.helper.LocationHelper.mlocListener); org.immopoly.android.helper.LocationHelper.mlocListener = null; }
+public void updateCurImg() { this.capture.read(this.curImg); }
+@org.junit.Test public void testIsLastPublishedVersionPublic() { org.gbif.ipt.model.Resource r = getResource(); assertFalse(r.isLastPublishedVersionPublic()); }
+public void draw(com.badlogic.gdx.graphics.glutils.ShapeRenderer canvas) { tbs.bassjump.objects.Player.setShapeRotation(((tbs.bassjump.objects.Player.playerJumpPercentage) * 180)); tbs.bassjump.objects.Player.c.set(Game.color); canvas.rect(xPos, yPos, scale, scale); }
+public final long getStopTime() { return stopTime; }
+@java.lang.Override public void setCurrentTypeView(java.lang.String currentTypeView) { this.currentTypeView = currentTypeView; enableAndHideTabs(true); enableOrHidePreviewBtn(); enableOrHideShareTab(); }
+public double getRadius() { return java.lang.Math.sqrt(((java.lang.Math.abs(mass)) / ((com.labprogramming.gravity.Body.DENSITY) * (java.lang.Math.PI)))); }
+public void deleteRecipe(android.content.Context context, long id) { new com.example.caitlin.cookhelper.DatabaseHandler(context).deleteRecipe(id); }
+@java.lang.Override public void run() { mActivity.runOnUiThread(new java.lang.Runnable() { @java.lang.Override public void run() { if (!(mGotLocation)) mListener.onLocationNotAvailable(); } }); }
+public void oCclearorder(android.view.View v) { clearorder(); }
+@java.lang.Override public boolean onQueryTextChange(java.lang.String newText) { performFilter(newText); return false; }
+public void validateBefore(final android.view.View view, final boolean async) { createRulesSafelyAndLazily(false); android.view.View previousView = getViewBefore(view); validateOrderedFieldsWithCallbackTill(previousView, "when using 'validateBefore(View)'.", async); }
+private void loadUserRequest() { }
+void close() { this.removeAllClusterNodes(); }
+private static void grade(scatt.Student student) { java.lang.System.out.println(scatt.CommandLineGrader.sg.getGradeFrom0To100(student)); }
+private java.lang.Boolean isEditableMessage(org.esbtools.message.admin.model.EsbMessage message) { if ((message.getMessageType()) == null) { return false; } return org.esbtools.message.admin.common.config.EMAConfiguration.getEditableMessageTypes().contains(message.getMessageType().toUpperCase()); }
+public void checkBlacklist(android.app.Activity activity) { this.activity = activity; appaloosa_store.com.appaloosa_android_tools.tools.services.blacklist.CheckBlacklistService.checkBlacklist(null); }
+@java.lang.Override public void onEnd(boolean isWinner) { endTime = java.lang.System.nanoTime(); long elapsedTime = (endTime) - (startTime); elapsedTime = java.util.concurrent.TimeUnit.NANOSECONDS.toSeconds(elapsedTime); productionManager.onEnd(isWinner, elapsedTime); }
+public void accept0(com.alibaba.druid.sql.dialect.teradata.visitor.TeradataASTVisitor visitor) { visitor.visit(this); visitor.endVisit(this); }
+public void answerCorrect(android.view.View view) { answerCorrect(); }
+@org.junit.Before public void setUp() { this.instance = new xyz.meunier.wav2pzx.PZXPilotBlock(this.firstPulseLevel, this.newPulses); }
+@java.lang.Override public void onClick(android.content.DialogInterface dialog, int which) { dialog.dismiss(); deleteTask = new com.bookstore.booklist.CategoryBookListFragment.DeteleSelectedBooksTask(mode); deleteTask.execute(); }
+private boolean shouldRestartDriverBeforeEachScenario() { return systemConfiguration.getEnvironmentVariables().getPropertyAsBoolean(SerenityJBehaveSystemProperties.RESTART_BROWSER_EACH_SCENARIO.getName(), true); }
+public void InvaderIsHitByProjectile(actors.InvaderShip invader, actors.HeroProjectile heroProjectile) { eventResolution.Push(new collision.ExplodeInvaderShip(invader, eventResolution)); eventResolution.Push(new collision.AbsorbProjectile(heroProjectile)); }
+public void getSelectMainMenu() { this.showMainMenu(); int tmp = getUserInput(0); if (tmp != 10) this.selectedMenu = tmp; else this.selectedMenu = 0; }
+public void addContact(java.lang.String name, java.lang.String phone, java.lang.String address) { cl.addContact(name, phone, address); }
+@java.lang.SuppressWarnings(value = { "unchecked" , "rawtypes" }) public java.util.List<fr.bougly.web.dtos.AccountDto> findAllComptes() { java.util.List accountList = accountRepository.findAll(); return fr.bougly.service.helper.MapperBeanUtil.convertAccountListToAccountDtoList(accountList); }
+void removeAllNotifications() throws org.bedework.calfacade.exc.CalFacadeException;
+public static boolean canCombo(java.util.ArrayList<card.model.cards.SkillCard> skillCards) { return true; }
+public static com.obabichev.artists.fragments.ArtistDetailsFragment create(com.obabichev.artists.model.Artist artist) { com.obabichev.artists.fragments.ArtistDetailsFragment fragment = new com.obabichev.artists.fragments.ArtistDetailsFragment(); fragment.artist = artist; return fragment; }
+@java.lang.Override protected void onCreate(android.os.Bundle savedInstanceState) { super.onCreate(savedInstanceState); setContentView(R.layout.record); }
+private void div() { val2 = numbers.pop(); val1 = numbers.pop(); numbers.push(((val1) / (val2))); }
+public void setModified(final java.util.Date modified) { this.modified = (modified != null) ? new java.util.Date(modified.getTime()) : null; }
+private int xyTo1D(int x, int y) { return ((x - 1) * (nGridSize)) + y; }
+public void addAtBegin(int data) { linkedList.Node n = new linkedList.Node(data); n.next = head; head = n; (size)++; }
+@org.junit.Test public void testGetChunkByLine() throws java.lang.Exception { context.healthinformatics.sequentialdataanalysis.Codes codes = new context.healthinformatics.sequentialdataanalysis.Codes(chunks); org.junit.Assert.assertEquals("CommentA", codes.getChunkByLine(1, chunks).getComment()); }
+public boolean removeName(java.lang.String name) { boolean removed = this.removeComponentName(this.contentPane, name); if (removed) { this.processTouchMotionEvent(); } return removed; }
+public java.lang.String[] parseAsKeyValuePairs(java.lang.String item) { java.lang.String[] keyValuePairs = item.split("[^a-zA-Z0-9:./]"); return keyValuePairs; }
+@java.lang.Override public void run() { adapter.updateData(java.util.Arrays.asList(color)); }
+private void launchDialogsListFragment() { android.util.Log.d("MainActivity", "launchDialogsListFragment()"); setCurrentFragment(com.quickblox.q_municate.ui.fragments.chats.DialogsListFragment.newInstance(), true); }
+@java.lang.Override public void map(water.fvec.Chunk ca, water.fvec.Chunk cp) { map(ca, cp, ((water.fvec.Chunk) (null))); }
+public void startPlayback() { if ((mIn) != null) { mRun = true; thread.start(); } }

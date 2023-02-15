@@ -1,0 +1,100 @@
+Modify the following JavaScript code: function checkPassword ( pass ) { if ( ! pass || pass . length < 8 || pass . length > 80 ) { return "valid passwords are between 8 and 80 chars" ; } }
+Modify the following JavaScript code: function ( ) { expect ( result ) . toHaveOwnProperty ( "foo" ) ; }
+Modify the following JavaScript code: function ( storageId , key , value , opt_callback ) { var paramObject = { 'storageId' : storageId , 'key' : key , 'value' : value , } ; chrome . devtools . remoteDebug . sendCommand ( 'DOMStorage.setDOMStorageItem' , paramObject , opt_callback ) ; }
+Modify the following JavaScript code: function ( ) { return $curr . removeClass ( "" + options . transition + " out active reverse" ) ; }
+Modify the following JavaScript code: function ( match , operator , key ) { if ( ! key ) { return operator === '*' ? '.*' : match ; } keys . push ( key ) ; return operator === '*' ? '(.*?)' : '([^/]*)' ; }
+Modify the following JavaScript code: function ( err , docs ) { var wordviews = docs . length ; cb ( null , { "Word views" : wordviews } ) ; }
+Modify the following JavaScript code: function _shouldShowInTree ( entry ) { return [ ".git" , ".svn" , ".DS_Store" , "Thumbs.db" ] . indexOf ( entry . name ) === - 1 ; }
+Modify the following JavaScript code: function ( ) { assert . equal ( subject . cached , subject . _accounts ) ; }
+Modify the following JavaScript code: function ( e ) { var key = e . which || e . keyCode ; if ( key === 13 ) { performSearch ( ) ; e . halt ( ) ; return false ; } }
+Modify the following JavaScript code: function ( emp ) { assert . instanceOf ( emp , Employee ) ; assert . equal ( emp . id , 6 ) ; next ( ) ; }
+Modify the following JavaScript code: function ( ev ) { MobDeals . Account . loginPrompt ( ) ; }
+Modify the following JavaScript code: function ( ) { page ++ ; getRelatedContent ( ) ; getRelatedContent ( true ) ; }
+Modify the following JavaScript code: function ( res ) { Object . append ( this , JSON . parse ( res . value ) ) ; if ( callback ) { callback ( ) ; } }
+Modify the following JavaScript code: function ( style , propName , prevValue , prevPriority , rule , baseText ) { var styleSheet = rule . parentStyleSheet ; this . markSheetDirty ( styleSheet ) ; }
+Modify the following JavaScript code: function ( error , docs ) { console . log ( "???" + newData ) }
+Modify the following JavaScript code: function ( t ) { set . modifiersByName [ t ] = modifier ; arr . push ( { name : modifier . name , src : t , value : modifier . value } ) ; }
+Modify the following JavaScript code: function finalBarX ( d ) { return chart . x ( ) ( d . key ) + chart . margins ( ) . left ; }
+Modify the following JavaScript code: function ( ) { this . stopAllActions ( ) ; this . unscheduleAllSelectors ( ) ; this . _arrayMakeObjectsPerformSelector ( this . _children , "cleanup" ) ; }
+Modify the following JavaScript code: function ( name , i ) { if ( ! _ . isUndefined ( opts [ name ] ) ) { self [ name ] = opts [ name ] ; } }
+Modify the following JavaScript code: function ( ) { controller . adminPath = '/admin' ; controller . addLocation ( '/admin/api' ) ; deepEqual ( controller . locations , [ ] ) ; ok ( utils . startsWith ( controller . errorHandler . lastError , 'Adding sublocations to admin is not supported' ) ) mock_stub . verify ( ) ; }
+Modify the following JavaScript code: function ( ) { clearTime ( timeNum ) ; $ ( this ) . dialog ( "close" ) ; }
+Modify the following JavaScript code: function Tilteed ( ) { BaseSite . call ( this ) ; this . siteName = "Tilteed" ; this . siteDisplayName = "Tilteed" ; this . siteURL = "http://www.tilteed.com" ; this . siteFeedURL = "http://www.tilteed.com/home/rss" ; this . imgWidth = 370 ; this . imgHeight = 480 ; }
+Modify the following JavaScript code: function ( err , result ) { expect ( err ) . to . eql ( { "foo" : "must not be bar" } ) ; done ( ) ; }
+Modify the following JavaScript code: function ( ) { form && form . triggerHandler ( 'submit' ) ; }
+Modify the following JavaScript code: function ( ) { var filters = _ . clone ( model . get ( 'filters' ) ) || { } ; filters [ filter_group_id ] = filter_group . getFilters ( ) ; model . set ( 'query_filters' , filters ) ; }
+Modify the following JavaScript code: function ( frame ) { this . setDisabledImage ( cc . Sprite . createWithSpriteFrameNameNameNameNameNameNameNameNameName ( frame ) ) ; }
+Modify the following JavaScript code: function ( ) { return this . context ; }
+Modify the following JavaScript code: function ( opt_callback ) { var paramObject = { } ; chrome . devtools . remoteDebug . sendCommand ( 'Page.getScriptExecutionStatus' , paramObject , opt_callback ) ; }
+Modify the following JavaScript code: function ( cfg ) { expect ( cfg . icons . length ) . toEqual ( 1 ) ; expect ( "pass.png" in cfg . icons ) . toBeTruthy ( ) ; }
+Modify the following JavaScript code: function ( done ) { when ( registry . lookup ( 'application/bogus' ) , never ( done ) , function ( ) { assert ( true ) ; done ( ) ; } ) ; }
+Modify the following JavaScript code: function ( e ) { e . preventdefault ( ) ; this . hide ( ) ; this . trigger ( 'renameColumn' ) ; return false ; }
+Modify the following JavaScript code: function ( subcontext , subtemplate ) { options = subtemplate . options ; return subtemplate . document . createDocumentFragment ( ) ; }
+Modify the following JavaScript code: function SubtitleTableViewCell ( reuseIdentifier ) { Pushpop . TableViewCell . prototype . constructor . apply ( this , arguments ) ; this . $element . addClass ( 'pp-subtitle-table-view-cell' ) ; }
+Modify the following JavaScript code: function ( ) { var uname = getValue ( $ ( this ) . val ( ) , 4 , 2 , dataTable_vNetworks ) ; $ ( 'input#NETWORK_UNAME' , section_networks ) . val ( uname ) ; }
+Modify the following JavaScript code: function ( ) { var self = this ; this . phoneNumbersPool . each ( function ( wp ) { self . appendWorkingPoint ( wp ) ; } ) ; }
+Modify the following JavaScript code: function ( error , results ) { var results = JSON . parse ( results . body ) var matches = results && results . Results ? results . Results : null cb ( error , matches ) }
+Modify the following JavaScript code: function browser_followLink ( e ) { e . preventDefault ( ) ; this . navigate ( e . target . getAttribute ( 'href' ) ) ; }
+Modify the following JavaScript code: function ( time ) { this . unschedule ( this . resumeGrossini ) ; var grossini = this . getChildByTag ( TAG_GROSSINI ) ; cc . ActionManager . sharedManager ( ) . resumeTarget ( grossini ) ; }
+Modify the following JavaScript code: function ( canvas ) { if ( canvas . getContext ) { return canvas . getContext ( '2d' ) ; } else { alert ( "Your browser doesn't support the 'canvas' api." ) ; throw "Browser doesn't support canvas api." ; } }
+Modify the following JavaScript code: function ( ) { CubeViz_Main_Module . registerDataStructureDefinition ( ) ; }
+Modify the following JavaScript code: function ( opt_callback ) { var paramObject = { } ; chrome . devtools . remoteDebug . sendCommand ( 'DOMStorage.disable' , paramObject , opt_callback ) ; }
+Modify the following JavaScript code: function ( databaseId , opt_callback ) { var paramObject = { 'databaseId' : databaseId , } ; chrome . devtools . remoteDebug . sendCommand ( 'Database.getDatabaseTableNames' , paramObject , opt_callback ) ; }
+Modify the following JavaScript code: function ( ) { testActionStartsModule ( "doConfirmUser" , { email : TEST_EMAIL } , "check_registration" ) ; }
+Modify the following JavaScript code: function ( filename ) { if ( Path . extname ( filename ) === '.js' ) { files . push ( Path . join ( JS_COVERAGE_BASE , folder , filename ) ) ; } }
+Modify the following JavaScript code: function ( fontWeight ) { return ( /^(italic|oblique)$/ ) . test ( fontWeight ) ; }
+Modify the following JavaScript code: function ( ) { return false ; }
+Modify the following JavaScript code: function ( ) { buildUI ( photodb ) ; photodb . scan ( ) ; document . addEventListener ( 'mozvisibilitychange' , function visibilityChange ( ) { if ( ! document . mozHidden ) { photodb . scan ( ) ; } } ) ; }
+Modify the following JavaScript code: function ( ) { if ( self . user . is ( "admin" ) ) dom . get ( "modeSwitch" ) . hide ( ) ; switchClasses ( "remove" ) ; }
+Modify the following JavaScript code: function ( cm ) { mark [ "Shift-X" ] = cm . getCursor ( ) . line ; }
+Modify the following JavaScript code: function ( offsetInPixels ) { this . _offsetInPixels = offsetInPixels ; }
+Modify the following JavaScript code: function ( ) { data . handlers . splice ( data . handlers . indexOf ( this . handler ) ) ; delete data . spiedEvents [ [ this . selector , this . eventName ] ] ; }
+Modify the following JavaScript code: function ap_ext_editUser ( id ) { floaterShow ( ap_ext_path + "floaters.php" , "editUsr" , 0 , id , 400 , 230 ) ; }
+Modify the following JavaScript code: function ( ) { if ( confirm ( "Are you sure you want to delete " + worksheetToEdit + "?" ) ) { hideMenus ( ) ; graphCollection . removeWorksheet ( worksheetToEdit ) ; constructVis ( ) ; } }
+Modify the following JavaScript code: function ( opt_callback ) { var paramObject = { } ; chrome . devtools . remoteDebug . sendCommand ( 'Page.getScriptExecutionStatus' , paramObject , opt_callback ) ; }
+Modify the following JavaScript code: function ( filepath ) { deepResovle ( self , searchname , filepath , result ) ; }
+Modify the following JavaScript code: function ( ) { this . hostEditor . setInlineWidgetHeight ( this , this . $wrapperDiv . height ( ) + 20 , true ) ; }
+Modify the following JavaScript code: function ( scene ) { return def . join ( "," , scene . acts . x . label , scene . acts . y . label ) ; }
+Modify the following JavaScript code: function ( cfg ) { expect ( cfg . author . unicode ) . toEqual ( "" ) ; }
+Modify the following JavaScript code: function ( apiObjects , basePath ) { this . apiList . createAll ( apiObjects ) ; this . apiList . each ( function ( api ) { api . setBaseUrl ( basePath ) ; } ) ; }
+Modify the following JavaScript code: function ( ) { var params = ModelBase . prototype . getPreset . call ( this ) ; params . sunYears = this . getSunYears ( ) ; return params ; }
+Modify the following JavaScript code: function ( properties ) { documentProperties = properties return this }
+Modify the following JavaScript code: function ( ) { return new Matrix2 ( { } ) ; }
+Modify the following JavaScript code: function browser_urlFocus ( ) { if ( this . currentScreen === this . PAGE_SCREEN ) { this . urlInput . value = this . currentTab . url ; this . urlInput . select ( ) ; this . showAwesomeScreen ( ) ; } }
+Modify the following JavaScript code: function ( data ) { if ( data != null ) this . text_data = data ; return this . text_data ; }
+Modify the following JavaScript code: function ( interval , slideControls ) { clearInterval ( interval ) ; slideControls . pauseResume . html ( fn . tmpl ( '#slice-slide-controls-paused' ) ) ; }
+Modify the following JavaScript code: function ( ) { self . blurHandler ( this ) ; }
+Modify the following JavaScript code: function ( ) { return parseFloat ( this . locZ ) ; }
+Modify the following JavaScript code: function ( ) { alert ( "1" ) ; sp . fireball ( dd . enemy ) ; dd . processTick ( ) ; }
+Modify the following JavaScript code: function ( name ) { var p = s . typeSchema . properties [ name ] ; var v = s . property ( name ) ; v . prepare ( ) ; s [ name ] = v ; }
+Modify the following JavaScript code: function ( ) { this . attachjPlayer ( $ ( "#jPlayer" ) , $ ( "div.toolbar ul.player" ) , $ ( "#Playlist" ) ) ; this . attachDomEvents ( ) ; this . fadeInContent ( ) ; this . attachBubble ( ) ; this . runHash ( ) ; }
+Modify the following JavaScript code: function activeIfEquals ( name , testName ) { if ( name === testName ) return 'active' ; return '' ; }
+Modify the following JavaScript code: function ( ) { return { alt : 20 , lat : null , lon : null } }
+Modify the following JavaScript code: function ( router , context ) { router . get ( 'applicationController' ) . connectOutlet ( 'items' ) ; }
+Modify the following JavaScript code: function ( ) { return youtubeObject . getVolume ( ) / 100 ; }
+Modify the following JavaScript code: function ( ) { $ ( ".search input" ) . keyup ( ) ; }
+Modify the following JavaScript code: function ( values ) { return values . join ( ' ' ) ; }
+Modify the following JavaScript code: function ( ) { e . dispatch . close ( callback ) ; if ( callback . onClose ) callback . onClose ( ) ; }
+Modify the following JavaScript code: function ( ) { let _text = this . _promptEntry . get_text ( ) ; this . _promptEntry . reactive = false ; this . _promptEntry . add_style_pseudo_class ( 'insensitive' ) ; this . _greeterClient . call_answer_query ( serviceName , _text ) ; }
+Modify the following JavaScript code: function ( header ) { return templates . _wrap_pre ( [ [ "span" , header . name + ":" , "data-spec" , "http#" + header . name ] , [ "span" , " " + header . value ] ] ) ; }
+Modify the following JavaScript code: function dialog ( cm , text , shortText , f ) { if ( cm . openDialog ) cm . openDialog ( text , f ) ; else f ( prompt ( shortText , "" ) ) ; }
+Modify the following JavaScript code: function ( event ) { this . region . showElement ( '.current' , '0ms' ) ; }
+Modify the following JavaScript code: function ( ) { if ( ! PostSrv . isAdmin ) return 'is-not-admin' ; }
+Modify the following JavaScript code: function dragStart ( e ) { start = [ e . pageX , e . pageY ] ; whenDragStart ( start ) ; handler . mouseover ( dragDisable ) . mouseout ( dragDisable ) . click ( dragDisable ) ; }
+Modify the following JavaScript code: function ( previous ) { res . send ( previous ) ; }
+Modify the following JavaScript code: function ( ) { assert . deepEqual ( Buffer . concat ( chunks ) , fs . readFileSync ( 'test/files/folder/Alice-white-rabbit.jpg' ) ) ; done ( ) ; }
+Modify the following JavaScript code: function ( ) { var val = + only_numbers_patt . exec ( $ ( "#circle_size" ) . val ( ) ) ; cityCircle . setRadius ( val ) ; $ ( "#size_slider" ) . slider ( "option" , "value" , val ) ; }
+Modify the following JavaScript code: function ( err , datas ) { $ ( '#dialog-message' ) . html ( '' ) ; console . log ( "datas[0] : " , datas [ 0 ] ) ; display . init ( datas ) ; }
+Modify the following JavaScript code: function ( condition ) { if ( condition == undefined ) { return true ; } return expr_evaluator . eval ( condition ) ; }
+Modify the following JavaScript code: function ( ) { log ( 'editAvatarView:render' ) ; this . _initMediaUploader ( ) ; $ ( '#avatar-viewer' ) . append ( '<img src="' + this . model . get ( 'Avatar' ) . Files . medium . RelativeUri + '" />' ) ; return this ; }
+Modify the following JavaScript code: function ( ) { this . _refresh ( ) ; }
+Modify the following JavaScript code: function ( doc , req ) { return { title : 'See Reflections Test Results' , content : templates . render ( 'see_refl.html' , req , doc ) } ; }
+Modify the following JavaScript code: function ( target ) { this . _super ( this . _forcedTarget ) ; this . _action . startWithTarget ( this . _forcedTarget ) ; }
+Modify the following JavaScript code: function ( ) { var user = Common . entity . create ( Common . entity . TYPE_TEST_A , { name : 'freddy' } ) ; user . saveCB ( null , this ) ; }
+Modify the following JavaScript code: function ( ) { if ( fd [ 0 ] === "string" && /[$_a-z0-9][a-z0-9]*/ . test ( fd [ 1 ] ) ) { return x + "." + fd [ 1 ] ; } else { return x + "[" + tfd + "]" ; } }
+Modify the following JavaScript code: function ( result , status ) { if ( status === 'OK' ) { console . log ( result ) ; } }
+Modify the following JavaScript code: function ( event ) { if ( opts . onlyIf ( this ) ) { fireCallback ( opts . callback , $ ( this ) , event , false ) ; } }
+Modify the following JavaScript code: function ( i , group ) { idArr . push ( $ ( group ) . data ( "groupid" ) ) ; titleArr . push ( $ ( group ) . data ( "grouptitle" ) ) ; }
+Modify the following JavaScript code: function ( ) { return youtubeObject . isMuted ( ) ; }
+Modify the following JavaScript code: function ( ) { _addSpeakerLine ( ) ; _claimTalk ( ) ; _editTalkComment ( ) ; _changeAnonymous ( ) ; _claimButton ( ) ; }
+Modify the following JavaScript code: function ( ) { for ( var i = 0 ; Gen . data . length > i ; i ++ ) { Gen . locked [ i ] = false ; } Gen . button_text ( ) ; Gen . show ( ) ; }

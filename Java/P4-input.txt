@@ -1,0 +1,100 @@
+Continue the implementation of the following function using 118 tokens: public int energy_getEnergyStored() {
+Continue the implementation of the following function using 187 tokens: private void initializeAdapter() {
+Continue the implementation of the following function using 124 tokens: public Card getTop() {
+Continue the implementation of the following function using 48 tokens: @java.lang.Override public java.lang.CharSequence getPageTitle(int position) { if (position < (com.podraza.android.gaogao.gaogao.MainActivity.todos.size())) { return com.podraza.android.gaogao.gaogao.MainActivity.todos.get(position).getName(); }else 
+Continue the implementation of the following function using 671 tokens: @org.junit.Test(expected = java.lang.IllegalArgumentException.class) public void testSendMessageForNull_replyToAddressMethodOne() throws java.lang.IllegalArgumentException 
+Continue the implementation of the following function using 111 tokens: private void createUsers()
+Continue the implementation of the following function using 74 tokens: @org.springframework.web.bind.annotation.RequestMapping(method = org.springframework.web.bind.annotation.RequestMethod.GET) public java.lang.String printHello(org.springframework.ui.ModelMap model) 
+Continue the implementation of the following function using 476 tokens: private
+Continue the implementation of the following function using 13 tokens: @java.lang.Override public void run() 
+Continue the implementation of the following function using 107 tokens: @java.lang.Override public void loadingStart() { loading = new android.app.ProgressDialog(this); loading.setMessage("Loading"); 
+Continue the implementation of the following function using 14 tokens: @java.lang.Override public <S extends com.netbuilder.entities.Payment> S insert(S arg0) { mongoOperation.save(arg0); 
+Continue the implementation of the following function using 247 tokens: public void initializerTimer() { this.timer = new
+Continue the implementation of the following function using 444 tokens: @java.lang.Override protected void setupCommonUIDelegate(@android.support.annotation.NonNull com.playground.notification.app.activities.CommonUIDelegate commonUIDelegate) { super.setupCommonUIDelegate(commonUIDelegate); commonUIDelegate.setDrawerLayout(mBinding.drawerLayout); commonUIDelegate.setNavigationView(mBinding.navView); c
+Continue the implementation of the following function using 183 tokens: private SalarySlipKata.domain.GBP perMonth(SalarySlipKata.domain.GBP value) {
+Continue the implementation of the following function using 141 tokens: @java.lang.Override public boolean onPreferenceChange(android.preference.Preference preference, java.lang.Object newValue) { 
+Continue the implementation of the following function using 1258 tokens: public
+Continue the implementation of the following function using 181 tokens: @java.lang.Override public java.lang.String getAccessTransformerClass() { 
+Continue the implementation of the following function using 314 tokens: @java.lang.Override public void run() { 
+Continue the implementation of the following function using 39 tokens: @java.lang.Override public void onClick(android.view.View view) { int adapterPosition = getAdapterPosition(); if (adapterPosition != 0) { 
+Continue the implementation of the following function using 78 tokens: public int nextId() {
+Continue the implementation of the following function using 249 tokens: public void executeInverseCommand() throws java.text.ParseException, seedu.todoapp.commons.exceptions.IllegalValueException, seedu.todoapp.logic.commands.exceptions.CommandException, seedu.todoapp.model.person.UniqueTaskList.TaskInvalidTimestampsException {
+Continue the implementation of the following function using 30 tokens: public com.Heather.Card dealcard() { java.util.Random num = new java.util.Random(); int r =
+Continue the implementation of the following function using 20 tokens: @java.lang.Override public double getWeightValue(int time) { return java.lang.Math.exp((time * 
+Continue the implementation of the following function using 104 tokens: public boolean updateItem(long
+Continue the implementation of the following function using 72 tokens: @java.lang.Override protected boolean check() throws java.lang.Exception { return 
+Continue the implementation of the following function using 172 tokens: private void drawingPanelMouseDragged(java.awt.event.MouseEvent evt) {
+Continue the implementation of the following function using 59 tokens: @java.lang.Override public boolean matches(org.jsoup.nodes.Element root, org.jsoup.nodes.Element element) { return (element.hasAttr(key)) && 
+Continue the implementation of the following function using 50 tokens: public void exeDRAW() { if (eplayer.deck.curCards.isEmpty()) { eplayer.life = 0; hasWon = true; gameOver = true; inGameState = GAME_OVER_STATE;
+Continue the implementation of the following function using 415 tokens: @java.lang.Override protected void drawValue(android.graphics.Canvas 
+Continue the implementation of the following function using 1040 tokens: p
+Continue the implementation of the following function using 438 tokens: @java.lang.Override public void onClick(android.view.View v) 
+Continue the implementation of the following function using 66 tokens: public int getWhiteStrength() { return
+Continue the implementation of the following function using 165 tokens: protected final void
+Continue the implementation of the following function using 301 tokens: public nl.tudelft.jpacman.Level nextLevel() { nl.tudelft.jpacman.Level level =
+Continue the implementation of the following function using 852 tokens: public java.util.List<com.astedt.robin.concurrentobjecthandler.ConcurrentObject> getObjects()
+Continue the implementation of the following function using 132 tokens: public void onClick(android.content.DialogInterface dialog, int which) {
+Continue the implementation of the following function using 502 tokens: @java.lang.Override public java.lang.String getQuestionSortType(java.lang.String 
+Continue the implementation of the following function using 24 tokens: public int setPeerNodeStatus(long now) { return setPeerNodeStatus(now,
+Continue the implementation of the following function using 177 tokens: public int getRandomX() { return
+Continue the implementation of the following function using 30 tokens: public void autonomousPeriodic()
+Continue the implementation of the following function using 391 tokens: public static void setConfigurationFields(java.lang.Object configurable, org.apache.flume.Context context, java.lang.String
+Continue the implementation of the following function using 109 tokens: p
+Continue the implementation of the following function using 158 tokens: @de.escalon.hypermedia.action.Action(value = "ReviewAction") @org.springframework.web.bind.annotation.RequestMapping(value = "/{rating}", params = "reviewBody", method = org.springframework.web.bind.annotation.RequestMethod.POST) @org.springframework.web.bind.annotation.ResponseBody public org.springframework.http.ResponseEntity<java.lang.Void> addReview(@org.springframework.web.bind.annotation.PathVariable @de.escalon.hypermedia.action.Select(value = { "excellent" , "mediocre" , "abysmal" }) j
+Continue the implementation of the following function using 36 tokens: @java.lang.Override public minetweaker.api.item.IItemStack transform(minetweaker.api.item.IItemStack item, minetweaker.api.player.IPlayer byPlayer) { return 
+Continue the implementation of the following function using 176 tokens: @java.lang.Override public void onSwiped(android.support.v7.widget.RecyclerView.ViewHolder viewHolder, int direction) 
+Continue the implementation of the following function using 232 tokens: private static boolean
+Continue the implementation of the following function using 241 tokens: @java.lang.Override public void addFront(com.flowpowered.math.vector.Vector3i vector) { vector3iTuple[0] = 
+Continue the implementation of the following function using 443 tokens: protected synchronized com.google.android.gms.common.api.GoogleApiClient buildGoogleApiClient() {
+Continue the implementation of the following function using 88 tokens: p
+Continue the implementation of the following function using 129 tokens: @org.junit.Test public void unmark_invalidTaskIndex_failure() { commandBox.runCommand(("unmark 
+Continue the implementation of the following function using 70 tokens: @org.junit.Test public void addRecipe3() { mocha = new edu.pjatk.inn.coffeemaker.impl.Recipe(); mocha.setName("Mocha"); mocha.setPrice((-50)); 
+Continue the implementation of the following function using 153 tokens: @java.lang.Override public void receiveMessage(se.umu.cs.dist.ht15.dali_ens15bsf.Message m) 
+Continue the implementation of the following function using 422 tokens: @javafx.fxml.FXML private void changePassword() 
+Continue the implementation of the following function using 263 tokens: @java.lang.Override public void onClick(android.view.View v) { 
+Continue the implementation of the following function using 91 tokens: @java.lang.Override public void doError(java.lang.String message) 
+Continue the implementation of the following function using 801 tokens: @java.lang.Override public void run() 
+Continue the implementation of the following function using 146 tokens: public int getCurrentRoll()
+Continue the implementation of the following function using 128 tokens: @java.lang.Override public void 
+Continue the implementation of the following function using 195 tokens: @java.lang.Override public void onStatusChanged(java.lang.String arg0, int arg1, android.os.Bundle arg2) { if ((org.immopoly.android.helper.LocationHelper.mlocListener) != null) org.immopoly.android.helper.LocationHelper.mLocationManager.removeUpdates(org.immopoly.android.helper.LocationHelper.mlocListener); org.immopoly.android.helper.LocationHelper.mlocListener = 
+Continue the implementation of the following function using 37 tokens: public void updateCurImg() {
+Continue the implementation of the following function using 107 tokens: @org.junit.Test public void testIsLastPublishedVersionPublic() { org.gbif.ipt.model.Resource r = 
+Continue the implementation of the following function using 73 tokens: public void draw(com.badlogic.gdx.graphics.glutils.ShapeRenderer canvas) { tbs.bassjump.objects.Player.setShapeRotation(((tbs.bassjump.objects.Player.playerJumpPercentage) * 180)); tbs.bassjump.objects.Player.c.set(Game.color);
+Continue the implementation of the following function using 75 tokens: p
+Continue the implementation of the following function using 59 tokens: @java.lang.Override public void setCurrentTypeView(java.lang.String currentTypeView) { this.currentTypeView = currentTypeView; enableAndHideTabs(true); enableOrHidePreviewBtn(); 
+Continue the implementation of the following function using 278 tokens: public double getRadius() {
+Continue the implementation of the following function using 418 tokens: public void deleteRecipe(android.content.Context context, long id) { new
+Continue the implementation of the following function using 269 tokens: @java.lang.Override public void 
+Continue the implementation of the following function using 332 tokens: public void oCclearorder(android.view.View v) {
+Continue the implementation of the following function using 196 tokens: @java.lang.Override public boolean onQueryTextChange(java.lang.String newText) 
+Continue the implementation of the following function using 136 tokens: public void validateBefore(final android.view.View view, final boolean async) {
+Continue the implementation of the following function using 347 tokens: private void loadUserRequest()
+Continue the implementation of the following function using 292 tokens: void close() { if
+Continue the implementation of the following function using 164 tokens: private static void grade(scatt.Student student)
+Continue the implementation of the following function using 249 tokens: private java.lang.Boolean isEditableMessage(org.esbtools.message.admin.model.EsbMessage message) {
+Continue the implementation of the following function using 1516 tokens: public void
+Continue the implementation of the following function using 125 tokens: @java.lang.Override public void onEnd(boolean isWinner) { endTime = java.lang.System.nanoTime(); long elapsedTime = 
+Continue the implementation of the following function using 970 tokens: 
+Continue the implementation of the following function using 95 tokens: p
+Continue the implementation of the following function using 131 tokens: @org.junit.Before public void setUp() { this.instance = new xyz.meunier.wav2pzx.PZXPilotBlock(this.firstPulseLevel, 
+Continue the implementation of the following function using 568 tokens: @java.lang.Override public void onClick(android.content.DialogInterface dialog, int which) { 
+Continue the implementation of the following function using 157 tokens: private boolean shouldRestartDriverBeforeEachScenario() { return
+Continue the implementation of the following function using 112 tokens: public void InvaderIsHitByProjectile(actors.InvaderShip invader, actors.HeroProjectile heroProjectile) { eventResolution.Push(new
+Continue the implementation of the following function using 157 tokens: public void getSelectMainMenu() { this.showMainMenu();
+Continue the implementation of the following function using 191 tokens: public void addContact(java.lang.String name,
+Continue the implementation of the following function using 739 tokens: @java.lang.SuppressWarnings(value = { "unchecked" , "rawtypes" }) public java.util.List<fr.bougly.web.dtos.AccountDto> findAllComptes() { java.util.List accountList = 
+Continue the implementation of the following function using 186 tokens: void
+Continue the implementation of the following function using 25 tokens: public static boolean canCombo(java.util.ArrayList<card.model.cards.SkillCard> skillCards) {
+Continue the implementation of the following function using 502 tokens: public static com.obabichev.artists.fragments.ArtistDetailsFragment
+Continue the implementation of the following function using 593 tokens: @java.lang.Override protected void onCreate(android.os.Bundle savedInstanceState) { super.onCreate(savedInstanceState); 
+Continue the implementation of the following function using 65 tokens: private void div() {
+Continue the implementation of the following function using 212 tokens: public void setModified(final java.util.Date modified) { this.modified
+Continue the implementation of the following function using 98 tokens: p
+Continue the implementation of the following function using 36 tokens: public void addAtBegin(int data) { linkedList.Node n = new linkedList.Node(data); n.next = head; head =
+Continue the implementation of the following function using 46 tokens: @org.junit.Test public void testGetChunkByLine() throws java.lang.Exception { context.healthinformatics.sequentialdataanalysis.Codes codes = new context.healthinformatics.sequentialdataanalysis.Codes(chunks); org.junit.Assert.assertEquals("CommentA", 
+Continue the implementation of the following function using 236 tokens: public
+Continue the implementation of the following function using 261 tokens: public
+Continue the implementation of the following function using 51 tokens: @java.lang.Override public void run() { 
+Continue the implementation of the following function using 109 tokens: private void launchDialogsListFragment() { android.util.Log.d("MainActivity", "launchDialogsListFragment()");
+Continue the implementation of the following function using 73 tokens: @java.lang.Override public void map(water.fvec.Chunk ca, water.fvec.Chunk cp) { map(ca, 
+Continue the implementation of the following function using 83 tokens: public void startPlayback() { if

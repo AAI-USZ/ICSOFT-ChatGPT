@@ -1,0 +1,100 @@
+Fix or improve the following code: function checkPassword ( pass ) { if ( ! pass || pass . length < 8 || pass . length > 80 ) { return "valid passwords are between 8 and 80 chars" ; } }
+Fix or improve the following code: function ( ) { expect ( result ) . toHaveOwnProperty ( "foo" ) ; }
+Fix or improve the following code: function ( storageId , key , value , opt_callback ) { var paramObject = { 'storageId' : storageId , 'key' : key , 'value' : value , } ; chrome . devtools . remoteDebug . sendCommand ( 'DOMStorage.setDOMStorageItem' , paramObject , opt_callback ) ; }
+Fix or improve the following code: function ( ) { return $curr . removeClass ( "" + options . transition + " out active reverse" ) ; }
+Fix or improve the following code: function ( match , operator , key ) { if ( ! key ) { return operator === '*' ? '.*' : match ; } keys . push ( key ) ; return operator === '*' ? '(.*?)' : '([^/]*)' ; }
+Fix or improve the following code: function ( err , docs ) { var wordviews = docs . length ; cb ( null , { "Word views" : wordviews } ) ; }
+Fix or improve the following code: function _shouldShowInTree ( entry ) { return [ ".git" , ".svn" , ".DS_Store" , "Thumbs.db" ] . indexOf ( entry . name ) === - 1 ; }
+Fix or improve the following code: function ( ) { assert . equal ( subject . cached , subject . _accounts ) ; }
+Fix or improve the following code: function ( e ) { var key = e . which || e . keyCode ; if ( key === 13 ) { performSearch ( ) ; e . halt ( ) ; return false ; } }
+Fix or improve the following code: function ( emp ) { assert . instanceOf ( emp , Employee ) ; assert . equal ( emp . id , 6 ) ; next ( ) ; }
+Fix or improve the following code: function ( ev ) { MobDeals . Account . loginPrompt ( ) ; }
+Fix or improve the following code: function ( ) { page ++ ; getRelatedContent ( ) ; getRelatedContent ( true ) ; }
+Fix or improve the following code: function ( res ) { Object . append ( this , JSON . parse ( res . value ) ) ; if ( callback ) { callback ( ) ; } }
+Fix or improve the following code: function ( style , propName , prevValue , prevPriority , rule , baseText ) { var styleSheet = rule . parentStyleSheet ; this . markSheetDirty ( styleSheet ) ; }
+Fix or improve the following code: function ( error , docs ) { console . log ( "???" + newData ) }
+Fix or improve the following code: function ( t ) { set . modifiersByName [ t ] = modifier ; arr . push ( { name : modifier . name , src : t , value : modifier . value } ) ; }
+Fix or improve the following code: function finalBarX ( d ) { return chart . x ( ) ( d . key ) + chart . margins ( ) . left ; }
+Fix or improve the following code: function ( ) { this . stopAllActions ( ) ; this . unscheduleAllSelectors ( ) ; this . _arrayMakeObjectsPerformSelector ( this . _children , "cleanup" ) ; }
+Fix or improve the following code: function ( name , i ) { if ( ! _ . isUndefined ( opts [ name ] ) ) { self [ name ] = opts [ name ] ; } }
+Fix or improve the following code: function ( ) { controller . adminPath = '/admin' ; controller . addLocation ( '/admin/api' ) ; deepEqual ( controller . locations , [ ] ) ; ok ( utils . startsWith ( controller . errorHandler . lastError , 'Adding sublocations to admin is not supported' ) ) mock_stub . verify ( ) ; }
+Fix or improve the following code: function ( ) { clearTime ( timeNum ) ; $ ( this ) . dialog ( "close" ) ; }
+Fix or improve the following code: function Tilteed ( ) { BaseSite . call ( this ) ; this . siteName = "Tilteed" ; this . siteDisplayName = "Tilteed" ; this . siteURL = "http://www.tilteed.com" ; this . siteFeedURL = "http://www.tilteed.com/home/rss" ; this . imgWidth = 370 ; this . imgHeight = 480 ; }
+Fix or improve the following code: function ( err , result ) { expect ( err ) . to . eql ( { "foo" : "must not be bar" } ) ; done ( ) ; }
+Fix or improve the following code: function ( ) { form && form . triggerHandler ( 'submit' ) ; }
+Fix or improve the following code: function ( ) { var filters = _ . clone ( model . get ( 'filters' ) ) || { } ; filters [ filter_group_id ] = filter_group . getFilters ( ) ; model . set ( 'query_filters' , filters ) ; }
+Fix or improve the following code: function ( frame ) { this . setDisabledImage ( cc . Sprite . createWithSpriteFrameNameNameNameNameNameNameNameNameName ( frame ) ) ; }
+Fix or improve the following code: function ( ) { return this . context ; }
+Fix or improve the following code: function ( opt_callback ) { var paramObject = { } ; chrome . devtools . remoteDebug . sendCommand ( 'Page.getScriptExecutionStatus' , paramObject , opt_callback ) ; }
+Fix or improve the following code: function ( cfg ) { expect ( cfg . icons . length ) . toEqual ( 1 ) ; expect ( "pass.png" in cfg . icons ) . toBeTruthy ( ) ; }
+Fix or improve the following code: function ( done ) { when ( registry . lookup ( 'application/bogus' ) , never ( done ) , function ( ) { assert ( true ) ; done ( ) ; } ) ; }
+Fix or improve the following code: function ( e ) { e . preventdefault ( ) ; this . hide ( ) ; this . trigger ( 'renameColumn' ) ; return false ; }
+Fix or improve the following code: function ( subcontext , subtemplate ) { options = subtemplate . options ; return subtemplate . document . createDocumentFragment ( ) ; }
+Fix or improve the following code: function SubtitleTableViewCell ( reuseIdentifier ) { Pushpop . TableViewCell . prototype . constructor . apply ( this , arguments ) ; this . $element . addClass ( 'pp-subtitle-table-view-cell' ) ; }
+Fix or improve the following code: function ( ) { var uname = getValue ( $ ( this ) . val ( ) , 4 , 2 , dataTable_vNetworks ) ; $ ( 'input#NETWORK_UNAME' , section_networks ) . val ( uname ) ; }
+Fix or improve the following code: function ( ) { var self = this ; this . phoneNumbersPool . each ( function ( wp ) { self . appendWorkingPoint ( wp ) ; } ) ; }
+Fix or improve the following code: function ( error , results ) { var results = JSON . parse ( results . body ) var matches = results && results . Results ? results . Results : null cb ( error , matches ) }
+Fix or improve the following code: function browser_followLink ( e ) { e . preventDefault ( ) ; this . navigate ( e . target . getAttribute ( 'href' ) ) ; }
+Fix or improve the following code: function ( time ) { this . unschedule ( this . resumeGrossini ) ; var grossini = this . getChildByTag ( TAG_GROSSINI ) ; cc . ActionManager . sharedManager ( ) . resumeTarget ( grossini ) ; }
+Fix or improve the following code: function ( canvas ) { if ( canvas . getContext ) { return canvas . getContext ( '2d' ) ; } else { alert ( "Your browser doesn't support the 'canvas' api." ) ; throw "Browser doesn't support canvas api." ; } }
+Fix or improve the following code: function ( ) { CubeViz_Main_Module . registerDataStructureDefinition ( ) ; }
+Fix or improve the following code: function ( opt_callback ) { var paramObject = { } ; chrome . devtools . remoteDebug . sendCommand ( 'DOMStorage.disable' , paramObject , opt_callback ) ; }
+Fix or improve the following code: function ( databaseId , opt_callback ) { var paramObject = { 'databaseId' : databaseId , } ; chrome . devtools . remoteDebug . sendCommand ( 'Database.getDatabaseTableNames' , paramObject , opt_callback ) ; }
+Fix or improve the following code: function ( ) { testActionStartsModule ( "doConfirmUser" , { email : TEST_EMAIL } , "check_registration" ) ; }
+Fix or improve the following code: function ( filename ) { if ( Path . extname ( filename ) === '.js' ) { files . push ( Path . join ( JS_COVERAGE_BASE , folder , filename ) ) ; } }
+Fix or improve the following code: function ( fontWeight ) { return ( /^(italic|oblique)$/ ) . test ( fontWeight ) ; }
+Fix or improve the following code: function ( ) { return false ; }
+Fix or improve the following code: function ( ) { buildUI ( photodb ) ; photodb . scan ( ) ; document . addEventListener ( 'mozvisibilitychange' , function visibilityChange ( ) { if ( ! document . mozHidden ) { photodb . scan ( ) ; } } ) ; }
+Fix or improve the following code: function ( ) { if ( self . user . is ( "admin" ) ) dom . get ( "modeSwitch" ) . hide ( ) ; switchClasses ( "remove" ) ; }
+Fix or improve the following code: function ( cm ) { mark [ "Shift-X" ] = cm . getCursor ( ) . line ; }
+Fix or improve the following code: function ( offsetInPixels ) { this . _offsetInPixels = offsetInPixels ; }
+Fix or improve the following code: function ( ) { data . handlers . splice ( data . handlers . indexOf ( this . handler ) ) ; delete data . spiedEvents [ [ this . selector , this . eventName ] ] ; }
+Fix or improve the following code: function ap_ext_editUser ( id ) { floaterShow ( ap_ext_path + "floaters.php" , "editUsr" , 0 , id , 400 , 230 ) ; }
+Fix or improve the following code: function ( ) { if ( confirm ( "Are you sure you want to delete " + worksheetToEdit + "?" ) ) { hideMenus ( ) ; graphCollection . removeWorksheet ( worksheetToEdit ) ; constructVis ( ) ; } }
+Fix or improve the following code: function ( opt_callback ) { var paramObject = { } ; chrome . devtools . remoteDebug . sendCommand ( 'Page.getScriptExecutionStatus' , paramObject , opt_callback ) ; }
+Fix or improve the following code: function ( filepath ) { deepResovle ( self , searchname , filepath , result ) ; }
+Fix or improve the following code: function ( ) { this . hostEditor . setInlineWidgetHeight ( this , this . $wrapperDiv . height ( ) + 20 , true ) ; }
+Fix or improve the following code: function ( scene ) { return def . join ( "," , scene . acts . x . label , scene . acts . y . label ) ; }
+Fix or improve the following code: function ( cfg ) { expect ( cfg . author . unicode ) . toEqual ( "" ) ; }
+Fix or improve the following code: function ( apiObjects , basePath ) { this . apiList . createAll ( apiObjects ) ; this . apiList . each ( function ( api ) { api . setBaseUrl ( basePath ) ; } ) ; }
+Fix or improve the following code: function ( ) { var params = ModelBase . prototype . getPreset . call ( this ) ; params . sunYears = this . getSunYears ( ) ; return params ; }
+Fix or improve the following code: function ( properties ) { documentProperties = properties return this }
+Fix or improve the following code: function ( ) { return new Matrix2 ( { } ) ; }
+Fix or improve the following code: function browser_urlFocus ( ) { if ( this . currentScreen === this . PAGE_SCREEN ) { this . urlInput . value = this . currentTab . url ; this . urlInput . select ( ) ; this . showAwesomeScreen ( ) ; } }
+Fix or improve the following code: function ( data ) { if ( data != null ) this . text_data = data ; return this . text_data ; }
+Fix or improve the following code: function ( interval , slideControls ) { clearInterval ( interval ) ; slideControls . pauseResume . html ( fn . tmpl ( '#slice-slide-controls-paused' ) ) ; }
+Fix or improve the following code: function ( ) { self . blurHandler ( this ) ; }
+Fix or improve the following code: function ( ) { return parseFloat ( this . locZ ) ; }
+Fix or improve the following code: function ( ) { alert ( "1" ) ; sp . fireball ( dd . enemy ) ; dd . processTick ( ) ; }
+Fix or improve the following code: function ( name ) { var p = s . typeSchema . properties [ name ] ; var v = s . property ( name ) ; v . prepare ( ) ; s [ name ] = v ; }
+Fix or improve the following code: function ( ) { this . attachjPlayer ( $ ( "#jPlayer" ) , $ ( "div.toolbar ul.player" ) , $ ( "#Playlist" ) ) ; this . attachDomEvents ( ) ; this . fadeInContent ( ) ; this . attachBubble ( ) ; this . runHash ( ) ; }
+Fix or improve the following code: function activeIfEquals ( name , testName ) { if ( name === testName ) return 'active' ; return '' ; }
+Fix or improve the following code: function ( ) { return { alt : 20 , lat : null , lon : null } }
+Fix or improve the following code: function ( router , context ) { router . get ( 'applicationController' ) . connectOutlet ( 'items' ) ; }
+Fix or improve the following code: function ( ) { return youtubeObject . getVolume ( ) / 100 ; }
+Fix or improve the following code: function ( ) { $ ( ".search input" ) . keyup ( ) ; }
+Fix or improve the following code: function ( values ) { return values . join ( ' ' ) ; }
+Fix or improve the following code: function ( ) { e . dispatch . close ( callback ) ; if ( callback . onClose ) callback . onClose ( ) ; }
+Fix or improve the following code: function ( ) { let _text = this . _promptEntry . get_text ( ) ; this . _promptEntry . reactive = false ; this . _promptEntry . add_style_pseudo_class ( 'insensitive' ) ; this . _greeterClient . call_answer_query ( serviceName , _text ) ; }
+Fix or improve the following code: function ( header ) { return templates . _wrap_pre ( [ [ "span" , header . name + ":" , "data-spec" , "http#" + header . name ] , [ "span" , " " + header . value ] ] ) ; }
+Fix or improve the following code: function dialog ( cm , text , shortText , f ) { if ( cm . openDialog ) cm . openDialog ( text , f ) ; else f ( prompt ( shortText , "" ) ) ; }
+Fix or improve the following code: function ( event ) { this . region . showElement ( '.current' , '0ms' ) ; }
+Fix or improve the following code: function ( ) { if ( ! PostSrv . isAdmin ) return 'is-not-admin' ; }
+Fix or improve the following code: function dragStart ( e ) { start = [ e . pageX , e . pageY ] ; whenDragStart ( start ) ; handler . mouseover ( dragDisable ) . mouseout ( dragDisable ) . click ( dragDisable ) ; }
+Fix or improve the following code: function ( previous ) { res . send ( previous ) ; }
+Fix or improve the following code: function ( ) { assert . deepEqual ( Buffer . concat ( chunks ) , fs . readFileSync ( 'test/files/folder/Alice-white-rabbit.jpg' ) ) ; done ( ) ; }
+Fix or improve the following code: function ( ) { var val = + only_numbers_patt . exec ( $ ( "#circle_size" ) . val ( ) ) ; cityCircle . setRadius ( val ) ; $ ( "#size_slider" ) . slider ( "option" , "value" , val ) ; }
+Fix or improve the following code: function ( err , datas ) { $ ( '#dialog-message' ) . html ( '' ) ; console . log ( "datas[0] : " , datas [ 0 ] ) ; display . init ( datas ) ; }
+Fix or improve the following code: function ( condition ) { if ( condition == undefined ) { return true ; } return expr_evaluator . eval ( condition ) ; }
+Fix or improve the following code: function ( ) { log ( 'editAvatarView:render' ) ; this . _initMediaUploader ( ) ; $ ( '#avatar-viewer' ) . append ( '<img src="' + this . model . get ( 'Avatar' ) . Files . medium . RelativeUri + '" />' ) ; return this ; }
+Fix or improve the following code: function ( ) { this . _refresh ( ) ; }
+Fix or improve the following code: function ( doc , req ) { return { title : 'See Reflections Test Results' , content : templates . render ( 'see_refl.html' , req , doc ) } ; }
+Fix or improve the following code: function ( target ) { this . _super ( this . _forcedTarget ) ; this . _action . startWithTarget ( this . _forcedTarget ) ; }
+Fix or improve the following code: function ( ) { var user = Common . entity . create ( Common . entity . TYPE_TEST_A , { name : 'freddy' } ) ; user . saveCB ( null , this ) ; }
+Fix or improve the following code: function ( ) { if ( fd [ 0 ] === "string" && /[$_a-z0-9][a-z0-9]*/ . test ( fd [ 1 ] ) ) { return x + "." + fd [ 1 ] ; } else { return x + "[" + tfd + "]" ; } }
+Fix or improve the following code: function ( result , status ) { if ( status === 'OK' ) { console . log ( result ) ; } }
+Fix or improve the following code: function ( event ) { if ( opts . onlyIf ( this ) ) { fireCallback ( opts . callback , $ ( this ) , event , false ) ; } }
+Fix or improve the following code: function ( i , group ) { idArr . push ( $ ( group ) . data ( "groupid" ) ) ; titleArr . push ( $ ( group ) . data ( "grouptitle" ) ) ; }
+Fix or improve the following code: function ( ) { return youtubeObject . isMuted ( ) ; }
+Fix or improve the following code: function ( ) { _addSpeakerLine ( ) ; _claimTalk ( ) ; _editTalkComment ( ) ; _changeAnonymous ( ) ; _claimButton ( ) ; }
+Fix or improve the following code: function ( ) { for ( var i = 0 ; Gen . data . length > i ; i ++ ) { Gen . locked [ i ] = false ; } Gen . button_text ( ) ; Gen . show ( ) ; }
